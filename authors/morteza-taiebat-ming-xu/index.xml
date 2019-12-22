@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Morteza Taiebat &amp; Ming Xu | Morteza Taiebat</title>
+    <link>/authors/morteza-taiebat-ming-xu/</link>
+      <atom:link href="/authors/morteza-taiebat-ming-xu/index.xml" rel="self" type="application/rss+xml" />
+    <description>Morteza Taiebat &amp; Ming Xu</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 21 Dec 2019 17:04:30 -0500</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>Morteza Taiebat &amp; Ming Xu</title>
+      <link>/authors/morteza-taiebat-ming-xu/</link>
+    </image>
+    
+    <item>
+      <title>Synergies of Four Emerging Technologies for Accelerated Adoption of Electric Vehicles: Shared Mobility, Wireless Charging, Vehicle-to-Grid, and Vehicle Automation</title>
+      <link>/publication/201909-synergies-cleanerproduction/</link>
+      <pubDate>Sat, 21 Dec 2019 17:04:30 -0500</pubDate>
+      <guid>/publication/201909-synergies-cleanerproduction/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>2 | Morteza Taiebat</title>
+    <link>/publication_types/2/</link>
+      <atom:link href="/publication_types/2/index.xml" rel="self" type="application/rss+xml" />
+    <description>2</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 21 Dec 2019 17:04:30 -0500</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>2</title>
+      <link>/publication_types/2/</link>
+    </image>
+    
+    <item>
+      <title>Synergies of Four Emerging Technologies for Accelerated Adoption of Electric Vehicles: Shared Mobility, Wireless Charging, Vehicle-to-Grid, and Vehicle Automation</title>
+      <link>/publication/201909-synergies-cleanerproduction/</link>
+      <pubDate>Sat, 21 Dec 2019 17:04:30 -0500</pubDate>
+      <guid>/publication/201909-synergies-cleanerproduction/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Scale, Distribution and Variations of Global Greenhouse Gas Emissions Driven by U.S. Households</title>
+      <link>/publication/201909-hh-consumption-enviromentinternational/</link>
+      <pubDate>Tue, 10 Sep 2019 16:31:21 -0500</pubDate>
+      <guid>/publication/201909-hh-consumption-enviromentinternational/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Regional water footprints and interregional virtual water transfers in China</title>
+      <link>/publication/201908-virtual-water-cleanerproduction/</link>
+      <pubDate>Sat, 10 Aug 2019 17:04:51 -0500</pubDate>
+      <guid>/publication/201908-virtual-water-cleanerproduction/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Forecasting the Impact of Connected and Automated Vehicles on Energy Use: A Microeconomic Study of Induced Travel and Energy Rebound</title>
+      <link>/publication/201908-cav-rebound-appliedenergy/</link>
+      <pubDate>Thu, 01 Aug 2019 16:50:11 -0500</pubDate>
+      <guid>/publication/201908-cav-rebound-appliedenergy/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

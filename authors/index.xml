@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Authors | Morteza Taiebat</title>
+    <link>/authors/</link>
+      <atom:link href="/authors/index.xml" rel="self" type="application/rss+xml" />
+    <description>Authors</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 21 Dec 2019 17:04:30 -0500</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>Authors</title>
+      <link>/authors/</link>
+    </image>
+    
+    <item>
+      <title>Morteza Taiebat &amp; Ming Xu</title>
+      <link>/authors/morteza-taiebat-ming-xu/</link>
+      <pubDate>Sat, 21 Dec 2019 17:04:30 -0500</pubDate>
+      <guid>/authors/morteza-taiebat-ming-xu/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Kaihui Song</title>
+      <link>/authors/kaihui-song/</link>
+      <pubDate>Tue, 10 Sep 2019 16:31:21 -0500</pubDate>
+      <guid>/authors/kaihui-song/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Morteza Taiebat</title>
+      <link>/authors/morteza-taiebat/</link>
+      <pubDate>Tue, 10 Sep 2019 16:31:21 -0500</pubDate>
+      <guid>/authors/morteza-taiebat/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sai Liang &amp; Ming Xu</title>
+      <link>/authors/sai-liang-ming-xu/</link>
+      <pubDate>Tue, 10 Sep 2019 16:31:21 -0500</pubDate>
+      <guid>/authors/sai-liang-ming-xu/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Shen Qu</title>
+      <link>/authors/shen-qu/</link>
+      <pubDate>Tue, 10 Sep 2019 16:31:21 -0500</pubDate>
+      <guid>/authors/shen-qu/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Shidong Zhang</title>
+      <link>/authors/shidong-zhang/</link>
+      <pubDate>Sat, 10 Aug 2019 17:04:51 -0500</pubDate>
+      <guid>/authors/shidong-zhang/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Yu Liu</title>
+      <link>/authors/yu-liu/</link>
+      <pubDate>Sat, 10 Aug 2019 17:04:51 -0500</pubDate>
+      <guid>/authors/yu-liu/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Samuel Stolper &amp; Ming Xu</title>
+      <link>/authors/samuel-stolper-ming-xu/</link>
+      <pubDate>Thu, 01 Aug 2019 16:50:11 -0500</pubDate>
+      <guid>/authors/samuel-stolper-ming-xu/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/authors/admin/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/authors/admin/</guid>
+      <description>&lt;p&gt;I am a PhD candidate at the Univeristy of Michigan, &lt;a href=&#34;https://seas.umich.edu&#34;&gt;School for Environment &amp;amp; Sustainbility&lt;/a&gt; and Department of &lt;a href=&#34;https://cee.engin.umich.edu&#34;&gt;Civil &amp;amp; Environmental Engineering&lt;/a&gt;. I am affiliated with the &lt;a href=&#34;https://css.umich.edu&#34;&gt;Center for Sustainable Systems&lt;/a&gt;, working under supervision of &lt;a href=&#34;https://seas.umich.edu/research/faculty/ming_xu&#34;&gt;Ming Xu&lt;/a&gt;, &lt;a href=&#34;https://seas.umich.edu/research/faculty/samuel_stolper&#34;&gt;Sam Stolper&lt;/a&gt;, and &lt;a href=&#34;https://cee.engin.umich.edu/people/henry-liu/&#34;&gt;Henry Liu&lt;/a&gt;. I am interested in the emerging modes of transportation (&lt;strong&gt;&lt;em&gt;automated&lt;/em&gt;&lt;/strong&gt;, &lt;strong&gt;&lt;em&gt;shared&lt;/em&gt;&lt;/strong&gt;, &amp;amp; &lt;strong&gt;&lt;em&gt;electric&lt;/em&gt;&lt;/strong&gt;) and understanding how they impact travel pattern, energy use, and economics of mobility.
+My research also focuses on leveraging these mobility modes to improve transportation system efficiency while reducing social inequality and environmental impacts. I utilize data science techniques, economics, and optimization to investigate the mechanisms that promote sustainable transportation.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
