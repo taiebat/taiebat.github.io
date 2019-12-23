@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Samuel Stolper | Morteza Taiebat</title>
+    <link>/authors/samuel-stolper/</link>
+      <atom:link href="/authors/samuel-stolper/index.xml" rel="self" type="application/rss+xml" />
+    <description>Samuel Stolper</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 01 Aug 2019 16:50:11 -0500</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>Samuel Stolper</title>
+      <link>/authors/samuel-stolper/</link>
+    </image>
+    
+    <item>
+      <title>Forecasting the Impact of Connected and Automated Vehicles on Energy Use: A Microeconomic Study of Induced Travel and Energy Rebound</title>
+      <link>/publication/201908-forecasting-the-impact-of-cavs-on-energy-use-microeconomic-study-of-induced-travel-and-energy-rebound/</link>
+      <pubDate>Thu, 01 Aug 2019 16:50:11 -0500</pubDate>
+      <guid>/publication/201908-forecasting-the-impact-of-cavs-on-energy-use-microeconomic-study-of-induced-travel-and-energy-rebound/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

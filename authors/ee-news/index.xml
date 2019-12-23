@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>E&amp;E News | Morteza Taiebat</title>
+    <link>/authors/ee-news/</link>
+      <atom:link href="/authors/ee-news/index.xml" rel="self" type="application/rss+xml" />
+    <description>E&amp;E News</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 23 Dec 2018 00:41:16 -0500</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>E&amp;E News</title>
+      <link>/authors/ee-news/</link>
+    </image>
+    
+    <item>
+      <title>Morteza in news</title>
+      <link>/project/my-project-name/</link>
+      <pubDate>Sun, 23 Dec 2018 00:41:16 -0500</pubDate>
+      <guid>/project/my-project-name/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -5,7 +5,7 @@
     <link>/authors/</link>
       <atom:link href="/authors/index.xml" rel="self" type="application/rss+xml" />
     <description>Authors</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 21 Dec 2019 17:04:30 -0500</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 01 Dec 2019 16:31:21 -0500</lastBuildDate>
     <image>
       <url>/img/icon-192.png</url>
       <title>Authors</title>
@@ -13,42 +13,50 @@
     </image>
     
     <item>
-      <title>Morteza Taiebat &amp; Ming Xu</title>
-      <link>/authors/morteza-taiebat-ming-xu/</link>
-      <pubDate>Sat, 21 Dec 2019 17:04:30 -0500</pubDate>
-      <guid>/authors/morteza-taiebat-ming-xu/</guid>
+      <title>Kaihui Song</title>
+      <link>/authors/kaihui-song/</link>
+      <pubDate>Sun, 01 Dec 2019 16:31:21 -0500</pubDate>
+      <guid>/authors/kaihui-song/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Kaihui Song</title>
-      <link>/authors/kaihui-song/</link>
-      <pubDate>Tue, 10 Sep 2019 16:31:21 -0500</pubDate>
-      <guid>/authors/kaihui-song/</guid>
+      <title>Ming Xu</title>
+      <link>/authors/ming-xu/</link>
+      <pubDate>Sun, 01 Dec 2019 16:31:21 -0500</pubDate>
+      <guid>/authors/ming-xu/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Morteza Taiebat</title>
       <link>/authors/morteza-taiebat/</link>
-      <pubDate>Tue, 10 Sep 2019 16:31:21 -0500</pubDate>
+      <pubDate>Sun, 01 Dec 2019 16:31:21 -0500</pubDate>
       <guid>/authors/morteza-taiebat/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Sai Liang &amp; Ming Xu</title>
-      <link>/authors/sai-liang-ming-xu/</link>
-      <pubDate>Tue, 10 Sep 2019 16:31:21 -0500</pubDate>
-      <guid>/authors/sai-liang-ming-xu/</guid>
+      <title>Sai Liang</title>
+      <link>/authors/sai-liang/</link>
+      <pubDate>Sun, 01 Dec 2019 16:31:21 -0500</pubDate>
+      <guid>/authors/sai-liang/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Shen Qu</title>
       <link>/authors/shen-qu/</link>
-      <pubDate>Tue, 10 Sep 2019 16:31:21 -0500</pubDate>
+      <pubDate>Sun, 01 Dec 2019 16:31:21 -0500</pubDate>
       <guid>/authors/shen-qu/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The Conversation</title>
+      <link>/authors/the-conversation/</link>
+      <pubDate>Tue, 10 Sep 2019 00:41:16 -0500</pubDate>
+      <guid>/authors/the-conversation/</guid>
       <description></description>
     </item>
     
@@ -69,10 +77,42 @@
     </item>
     
     <item>
-      <title>Samuel Stolper &amp; Ming Xu</title>
-      <link>/authors/samuel-stolper-ming-xu/</link>
+      <title>Samuel Stolper</title>
+      <link>/authors/samuel-stolper/</link>
       <pubDate>Thu, 01 Aug 2019 16:50:11 -0500</pubDate>
-      <guid>/authors/samuel-stolper-ming-xu/</guid>
+      <guid>/authors/samuel-stolper/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Austin Brown</title>
+      <link>/authors/austin-brown/</link>
+      <pubDate>Thu, 06 Sep 2018 16:50:11 -0500</pubDate>
+      <guid>/authors/austin-brown/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hannah Safford</title>
+      <link>/authors/hannah-safford/</link>
+      <pubDate>Thu, 06 Sep 2018 16:50:11 -0500</pubDate>
+      <guid>/authors/hannah-safford/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Miaojia Lu</title>
+      <link>/authors/miaojia-lu/</link>
+      <pubDate>Wed, 01 Aug 2018 16:50:11 -0500</pubDate>
+      <guid>/authors/miaojia-lu/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Shu-Chien Hsu</title>
+      <link>/authors/shu-chien-hsu/</link>
+      <pubDate>Wed, 01 Aug 2018 16:50:11 -0500</pubDate>
+      <guid>/authors/shu-chien-hsu/</guid>
       <description></description>
     </item>
     
@@ -81,8 +121,10 @@
       <link>/authors/admin/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>/authors/admin/</guid>
-      <description>&lt;p&gt;I am a PhD candidate at the Univeristy of Michigan, &lt;a href=&#34;https://seas.umich.edu&#34;&gt;School for Environment &amp;amp; Sustainbility&lt;/a&gt; and Department of &lt;a href=&#34;https://cee.engin.umich.edu&#34;&gt;Civil &amp;amp; Environmental Engineering&lt;/a&gt;. I am affiliated with the &lt;a href=&#34;https://css.umich.edu&#34;&gt;Center for Sustainable Systems&lt;/a&gt;, working under supervision of &lt;a href=&#34;https://seas.umich.edu/research/faculty/ming_xu&#34;&gt;Ming Xu&lt;/a&gt;, &lt;a href=&#34;https://seas.umich.edu/research/faculty/samuel_stolper&#34;&gt;Sam Stolper&lt;/a&gt;, and &lt;a href=&#34;https://cee.engin.umich.edu/people/henry-liu/&#34;&gt;Henry Liu&lt;/a&gt;. I am interested in the emerging modes of transportation (&lt;strong&gt;&lt;em&gt;automated&lt;/em&gt;&lt;/strong&gt;, &lt;strong&gt;&lt;em&gt;shared&lt;/em&gt;&lt;/strong&gt;, &amp;amp; &lt;strong&gt;&lt;em&gt;electric&lt;/em&gt;&lt;/strong&gt;) and understanding how they impact travel pattern, energy use, and economics of mobility.
-My research also focuses on leveraging these mobility modes to improve transportation system efficiency while reducing social inequality and environmental impacts. I utilize data science techniques, economics, and optimization to investigate the mechanisms that promote sustainable transportation.&lt;/p&gt;
+      <description>&lt;p&gt;I am a PhD candidate at the Univeristy of Michigan, &lt;a href=&#34;https://seas.umich.edu&#34;&gt;School for Environment &amp;amp; Sustainbility&lt;/a&gt; and Department of &lt;a href=&#34;https://cee.engin.umich.edu&#34;&gt;Civil &amp;amp; Environmental Engineering&lt;/a&gt;. I am affiliated with the &lt;a href=&#34;https://css.umich.edu&#34;&gt;Center for Sustainable Systems&lt;/a&gt;, working under supervision of &lt;a href=&#34;https://seas.umich.edu/research/faculty/ming_xu&#34;&gt;Ming Xu&lt;/a&gt;, &lt;a href=&#34;https://seas.umich.edu/research/faculty/samuel_stolper&#34;&gt;Sam Stolper&lt;/a&gt;, and &lt;a href=&#34;https://cee.engin.umich.edu/people/henry-liu/&#34;&gt;Henry Liu&lt;/a&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;research&#34;&gt;Research&lt;/h3&gt;
+&lt;p&gt;My interest lies in system-level analysis of the emerging modes of transportation (&lt;strong&gt;&lt;em&gt;automated&lt;/em&gt;&lt;/strong&gt;, &lt;strong&gt;&lt;em&gt;shared&lt;/em&gt;&lt;/strong&gt;, &amp;amp; &lt;strong&gt;&lt;em&gt;electric&lt;/em&gt;&lt;/strong&gt;) and understanding how they impact travel pattern, energy use, and economics of mobility.
+My research broadly focuses on leveraging these mobility modes to improve transportation system efficiency while reducing social inequality and environmental impacts. I utilize data science techniques, economics, and optimization to investigate the mechanisms that promote sustainable transportation.&lt;/p&gt;
 </description>
     </item>
     

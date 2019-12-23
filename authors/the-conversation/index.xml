@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>The Conversation | Morteza Taiebat</title>
+    <link>/authors/the-conversation/</link>
+      <atom:link href="/authors/the-conversation/index.xml" rel="self" type="application/rss+xml" />
+    <description>The Conversation</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 10 Sep 2019 00:41:16 -0500</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>The Conversation</title>
+      <link>/authors/the-conversation/</link>
+    </image>
+    
+    <item>
+      <title>5 charts show how your household drives up global greenhouse gas emissions</title>
+      <link>/project/201909-the-conversation/</link>
+      <pubDate>Tue, 10 Sep 2019 00:41:16 -0500</pubDate>
+      <guid>/project/201909-the-conversation/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
