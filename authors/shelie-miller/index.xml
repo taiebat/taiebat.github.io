@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Shelie Miller | Morteza Taiebat</title>
+    <link>/authors/shelie-miller/</link>
+      <atom:link href="/authors/shelie-miller/index.xml" rel="self" type="application/rss+xml" />
+    <description>Shelie Miller</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 03 Aug 2018 17:04:51 -0500</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>Shelie Miller</title>
+      <link>/authors/shelie-miller/</link>
+    </image>
+    
+    <item>
+      <title>Life Cycle Assessment of End-of-Life Treatments for Plastic Film Waste</title>
+      <link>/publication/201808-lca-of-end-of-life-treatments-forplastic-film-waste/</link>
+      <pubDate>Fri, 03 Aug 2018 17:04:51 -0500</pubDate>
+      <guid>/publication/201808-lca-of-end-of-life-treatments-forplastic-film-waste/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sustainability Implications of Connected and Autonomous Vehicles for the Food Supply Chain</title>
+      <link>/publication/201801-sustainability-implications-of-cavs-for-food-supply-chain/</link>
+      <pubDate>Mon, 01 Jan 2018 17:04:51 -0500</pubDate>
+      <guid>/publication/201801-sustainability-implications-of-cavs-for-food-supply-chain/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
