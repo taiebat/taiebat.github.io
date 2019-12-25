@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Projects | Morteza Taiebat</title>
-    <link>/project/</link>
-      <atom:link href="/project/index.xml" rel="self" type="application/rss+xml" />
-    <description>Projects</description>
+    <title>PBS News Hour | Morteza Taiebat</title>
+    <link>/authors/pbs-news-hour/</link>
+      <atom:link href="/authors/pbs-news-hour/index.xml" rel="self" type="application/rss+xml" />
+    <description>PBS News Hour</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 21 Sep 2019 00:41:16 -0500</lastBuildDate>
     <image>
       <url>/img/icon-192.png</url>
-      <title>Projects</title>
-      <link>/project/</link>
+      <title>PBS News Hour</title>
+      <link>/authors/pbs-news-hour/</link>
     </image>
     
     <item>
@@ -17,14 +17,6 @@
       <link>/project/201909-pbs-newshour/</link>
       <pubDate>Sat, 21 Sep 2019 00:41:16 -0500</pubDate>
       <guid>/project/201909-pbs-newshour/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>5 charts show how your household drives up global greenhouse gas emissions</title>
-      <link>/project/201909-the-conversation/</link>
-      <pubDate>Tue, 10 Sep 2019 00:41:16 -0500</pubDate>
-      <guid>/project/201909-the-conversation/</guid>
       <description></description>
     </item>
     

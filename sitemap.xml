@@ -58,12 +58,22 @@
   </url>
   
   <url>
-    <loc>/project/201909-the-conversation/</loc>
-    <lastmod>2019-09-10T00:41:16-05:00</lastmod>
+    <loc>/project/201909-pbs-newshour/</loc>
+    <lastmod>2019-09-21T00:41:16-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/pbs-news-hour/</loc>
+    <lastmod>2019-09-21T00:41:16-05:00</lastmod>
   </url>
   
   <url>
     <loc>/project/</loc>
+    <lastmod>2019-09-21T00:41:16-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/project/201909-the-conversation/</loc>
     <lastmod>2019-09-10T00:41:16-05:00</lastmod>
   </url>
   
