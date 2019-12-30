@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Michigan News | Morteza Taiebat</title>
+    <link>/authors/michigan-news/</link>
+      <atom:link href="/authors/michigan-news/index.xml" rel="self" type="application/rss+xml" />
+    <description>Michigan News</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 17 Apr 2019 00:41:16 -0500</lastBuildDate>
+    <image>
+      <url>/img/icon-512.png</url>
+      <title>Michigan News</title>
+      <link>/authors/michigan-news/</link>
+    </image>
+    
+    <item>
+      <title>Self-driving cars could lead to more driving miles, fewer environmental benefits</title>
+      <link>/project/201904-consumer-affairs/</link>
+      <pubDate>Wed, 17 Apr 2019 00:41:16 -0500</pubDate>
+      <guid>/project/201904-consumer-affairs/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

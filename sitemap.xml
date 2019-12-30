@@ -123,6 +123,16 @@
   </url>
   
   <url>
+    <loc>/authors/consumer-affairs/</loc>
+    <lastmod>2019-04-22T00:41:16-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/project/201904-michigannews/</loc>
+    <lastmod>2019-04-22T00:41:16-05:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/authors/ee-news-energywire/</loc>
     <lastmod>2019-04-18T00:41:16-05:00</lastmod>
   </url>
@@ -130,6 +140,26 @@
   <url>
     <loc>/project/201904-eenews/</loc>
     <lastmod>2019-04-18T00:41:16-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/michigan-news/</loc>
+    <lastmod>2019-04-17T00:41:16-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/project/201904-consumer-affairs/</loc>
+    <lastmod>2019-04-17T00:41:16-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/ee-news-climatewire/</loc>
+    <lastmod>2018-09-19T00:41:16-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/project/201809-eenews/</loc>
+    <lastmod>2018-09-19T00:41:16-05:00</lastmod>
   </url>
   
   <url>
