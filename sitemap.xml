@@ -123,13 +123,33 @@
   </url>
   
   <url>
+    <loc>/project/201904-science-alert/</loc>
+    <lastmod>2019-04-23T00:41:16-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/science-alert/</loc>
+    <lastmod>2019-04-23T00:41:16-05:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/authors/consumer-affairs/</loc>
     <lastmod>2019-04-22T00:41:16-05:00</lastmod>
   </url>
   
   <url>
-    <loc>/project/201904-michigannews/</loc>
+    <loc>/project/201904-consumer-affairs/</loc>
     <lastmod>2019-04-22T00:41:16-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/clean-technica/</loc>
+    <lastmod>2019-04-19T00:41:16-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/project/201904-clean-technica/</loc>
+    <lastmod>2019-04-19T00:41:16-05:00</lastmod>
   </url>
   
   <url>
@@ -148,8 +168,18 @@
   </url>
   
   <url>
-    <loc>/project/201904-consumer-affairs/</loc>
+    <loc>/project/201904-michigannews/</loc>
     <lastmod>2019-04-17T00:41:16-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/project/201810-iea/</loc>
+    <lastmod>2018-10-21T00:41:16-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/international-energy-agency/</loc>
+    <lastmod>2018-10-21T00:41:16-05:00</lastmod>
   </url>
   
   <url>
