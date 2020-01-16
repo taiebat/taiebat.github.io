@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>International Energy Agency | Morteza Taiebat</title>
-    <link>/authors/international-energy-agency/</link>
-      <atom:link href="/authors/international-energy-agency/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://taiebat.github.io/authors/international-energy-agency/</link>
+      <atom:link href="https://taiebat.github.io/authors/international-energy-agency/index.xml" rel="self" type="application/rss+xml" />
     <description>International Energy Agency</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 21 Oct 2018 00:41:16 -0500</lastBuildDate>
     <image>
-      <url>/img/icon-512.png</url>
+      <url>https://taiebat.github.io/img/icon-512.png</url>
       <title>International Energy Agency</title>
-      <link>/authors/international-energy-agency/</link>
+      <link>https://taiebat.github.io/authors/international-energy-agency/</link>
     </image>
     
     <item>
       <title>Do automated cars dream of electric sharing?</title>
-      <link>/project/201810-iea/</link>
+      <link>https://taiebat.github.io/project/201810-iea/</link>
       <pubDate>Sun, 21 Oct 2018 00:41:16 -0500</pubDate>
-      <guid>/project/201810-iea/</guid>
+      <guid>https://taiebat.github.io/project/201810-iea/</guid>
       <description></description>
     </item>
     

@@ -2,93 +2,93 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Projects | Morteza Taiebat</title>
-    <link>/project/</link>
-      <atom:link href="/project/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://taiebat.github.io/project/</link>
+      <atom:link href="https://taiebat.github.io/project/index.xml" rel="self" type="application/rss+xml" />
     <description>Projects</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 21 Sep 2019 00:41:16 -0500</lastBuildDate>
     <image>
-      <url>/img/icon-512.png</url>
+      <url>https://taiebat.github.io/img/icon-512.png</url>
       <title>Projects</title>
-      <link>/project/</link>
+      <link>https://taiebat.github.io/project/</link>
     </image>
     
     <item>
       <title>5 charts show how your household drives up global greenhouse gas emissions</title>
-      <link>/project/201909-pbs-newshour/</link>
+      <link>https://taiebat.github.io/project/201909-pbs-newshour/</link>
       <pubDate>Sat, 21 Sep 2019 00:41:16 -0500</pubDate>
-      <guid>/project/201909-pbs-newshour/</guid>
+      <guid>https://taiebat.github.io/project/201909-pbs-newshour/</guid>
       <description></description>
     </item>
     
     <item>
       <title>5 charts show how your household drives up global greenhouse gas emissions</title>
-      <link>/project/201909-the-conversation/</link>
+      <link>https://taiebat.github.io/project/201909-the-conversation/</link>
       <pubDate>Tue, 10 Sep 2019 00:41:16 -0500</pubDate>
-      <guid>/project/201909-the-conversation/</guid>
+      <guid>https://taiebat.github.io/project/201909-the-conversation/</guid>
       <description></description>
     </item>
     
     <item>
       <title>How will the proliferation of autonomous vehicles affect sustainability?</title>
-      <link>/project/201906-filling-space/</link>
+      <link>https://taiebat.github.io/project/201906-filling-space/</link>
       <pubDate>Tue, 25 Jun 2019 00:41:16 -0500</pubDate>
-      <guid>/project/201906-filling-space/</guid>
+      <guid>https://taiebat.github.io/project/201906-filling-space/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Here&#39;s The Bizarre Reason Self-Driving Cars Might Not Cut Down Traffic After All</title>
-      <link>/project/201904-science-alert/</link>
+      <link>https://taiebat.github.io/project/201904-science-alert/</link>
       <pubDate>Tue, 23 Apr 2019 00:41:16 -0500</pubDate>
-      <guid>/project/201904-science-alert/</guid>
+      <guid>https://taiebat.github.io/project/201904-science-alert/</guid>
       <description></description>
     </item>
     
     <item>
       <title>U-M study: ‘Induced’ driving miles could overwhelm potential energy-saving benefits of self-driving cars</title>
-      <link>/project/201904-consumer-affairs/</link>
+      <link>https://taiebat.github.io/project/201904-consumer-affairs/</link>
       <pubDate>Mon, 22 Apr 2019 00:41:16 -0500</pubDate>
-      <guid>/project/201904-consumer-affairs/</guid>
+      <guid>https://taiebat.github.io/project/201904-consumer-affairs/</guid>
       <description></description>
     </item>
     
     <item>
       <title>More Self-Driving Cars = More Miles Driven &amp; More Energy Consumed</title>
-      <link>/project/201904-clean-technica/</link>
+      <link>https://taiebat.github.io/project/201904-clean-technica/</link>
       <pubDate>Fri, 19 Apr 2019 00:41:16 -0500</pubDate>
-      <guid>/project/201904-clean-technica/</guid>
+      <guid>https://taiebat.github.io/project/201904-clean-technica/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Self-driving cars may need more fuel than previously thought</title>
-      <link>/project/201904-eenews/</link>
+      <link>https://taiebat.github.io/project/201904-eenews/</link>
       <pubDate>Thu, 18 Apr 2019 00:41:16 -0500</pubDate>
-      <guid>/project/201904-eenews/</guid>
+      <guid>https://taiebat.github.io/project/201904-eenews/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Self-driving cars could lead to more driving miles, fewer environmental benefits</title>
-      <link>/project/201904-michigannews/</link>
+      <link>https://taiebat.github.io/project/201904-michigannews/</link>
       <pubDate>Wed, 17 Apr 2019 00:41:16 -0500</pubDate>
-      <guid>/project/201904-michigannews/</guid>
+      <guid>https://taiebat.github.io/project/201904-michigannews/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Do automated cars dream of electric sharing?</title>
-      <link>/project/201810-iea/</link>
+      <link>https://taiebat.github.io/project/201810-iea/</link>
       <pubDate>Sun, 21 Oct 2018 00:41:16 -0500</pubDate>
-      <guid>/project/201810-iea/</guid>
+      <guid>https://taiebat.github.io/project/201810-iea/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Self-driving cars and CO2 emissions: It&#39;s complicated</title>
-      <link>/project/201809-eenews/</link>
+      <link>https://taiebat.github.io/project/201809-eenews/</link>
       <pubDate>Wed, 19 Sep 2018 00:41:16 -0500</pubDate>
-      <guid>/project/201809-eenews/</guid>
+      <guid>https://taiebat.github.io/project/201809-eenews/</guid>
       <description></description>
     </item>
     

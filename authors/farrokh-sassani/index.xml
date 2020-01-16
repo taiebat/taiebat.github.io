@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Farrokh Sassani | Morteza Taiebat</title>
-    <link>/authors/farrokh-sassani/</link>
-      <atom:link href="/authors/farrokh-sassani/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://taiebat.github.io/authors/farrokh-sassani/</link>
+      <atom:link href="https://taiebat.github.io/authors/farrokh-sassani/index.xml" rel="self" type="application/rss+xml" />
     <description>Farrokh Sassani</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 13 May 2017 17:04:51 -0500</lastBuildDate>
     <image>
-      <url>/img/icon-512.png</url>
+      <url>https://taiebat.github.io/img/icon-512.png</url>
       <title>Farrokh Sassani</title>
-      <link>/authors/farrokh-sassani/</link>
+      <link>https://taiebat.github.io/authors/farrokh-sassani/</link>
     </image>
     
     <item>
       <title>Distinguishing Sensor Faults from System Faults by Utilizing Minimum Sensor Redundancy</title>
-      <link>/publication/201705-distinguishing-sensor-and-system-faults-by-utilizing-minimum-sensor-redundancy/</link>
+      <link>https://taiebat.github.io/publication/201705-distinguishing-sensor-and-system-faults-by-utilizing-minimum-sensor-redundancy/</link>
       <pubDate>Sat, 13 May 2017 17:04:51 -0500</pubDate>
-      <guid>/publication/201705-distinguishing-sensor-and-system-faults-by-utilizing-minimum-sensor-redundancy/</guid>
+      <guid>https://taiebat.github.io/publication/201705-distinguishing-sensor-and-system-faults-by-utilizing-minimum-sensor-redundancy/</guid>
       <description></description>
     </item>
     

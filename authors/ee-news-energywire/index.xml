@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>E&amp;E News: ENERGYWIRE | Morteza Taiebat</title>
-    <link>/authors/ee-news-energywire/</link>
-      <atom:link href="/authors/ee-news-energywire/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://taiebat.github.io/authors/ee-news-energywire/</link>
+      <atom:link href="https://taiebat.github.io/authors/ee-news-energywire/index.xml" rel="self" type="application/rss+xml" />
     <description>E&amp;E News: ENERGYWIRE</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 18 Apr 2019 00:41:16 -0500</lastBuildDate>
     <image>
-      <url>/img/icon-512.png</url>
+      <url>https://taiebat.github.io/img/icon-512.png</url>
       <title>E&amp;E News: ENERGYWIRE</title>
-      <link>/authors/ee-news-energywire/</link>
+      <link>https://taiebat.github.io/authors/ee-news-energywire/</link>
     </image>
     
     <item>
       <title>Self-driving cars may need more fuel than previously thought</title>
-      <link>/project/201904-eenews/</link>
+      <link>https://taiebat.github.io/project/201904-eenews/</link>
       <pubDate>Thu, 18 Apr 2019 00:41:16 -0500</pubDate>
-      <guid>/project/201904-eenews/</guid>
+      <guid>https://taiebat.github.io/project/201904-eenews/</guid>
       <description></description>
     </item>
     
