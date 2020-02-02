@@ -1,9 +1,0 @@
-@article{taiebat2019synergies,
-  title={Synergies of four emerging technologies for accelerated adoption of electric vehicles: Shared mobility, wireless charging, vehicle-to-grid, and vehicle automation},
-  author={Taiebat, Morteza and Xu, Ming},
-  journal={Journal of Cleaner Production},
-  volume={230},
-  pages={794--797},
-  year={2019},
-  publisher={Elsevier}
-}
