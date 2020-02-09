@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Austin Brown | Morteza Taiebat</title>
+    <link>https://taiebat.github.io/authors/austin-brown/</link>
+      <atom:link href="https://taiebat.github.io/authors/austin-brown/index.xml" rel="self" type="application/rss+xml" />
+    <description>Austin Brown</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 06 Sep 2018 16:50:11 -0500</lastBuildDate>
+    <image>
+      <url>https://taiebat.github.io/img/icon-512.png</url>
+      <title>Austin Brown</title>
+      <link>https://taiebat.github.io/authors/austin-brown/</link>
+    </image>
+    
+    <item>
+      <title>A Review on Energy, Environmental, and Sustainability Implications of Connected and Automated Vehicles</title>
+      <link>https://taiebat.github.io/publication/201809-review-on-energy-environmental-sustainability-implications-of-connected-and-automated-vehicles/</link>
+      <pubDate>Thu, 06 Sep 2018 16:50:11 -0500</pubDate>
+      <guid>https://taiebat.github.io/publication/201809-review-on-energy-environmental-sustainability-implications-of-connected-and-automated-vehicles/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

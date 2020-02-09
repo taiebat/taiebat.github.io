@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sai Liang | Morteza Taiebat</title>
+    <link>https://taiebat.github.io/authors/sai-liang/</link>
+      <atom:link href="https://taiebat.github.io/authors/sai-liang/index.xml" rel="self" type="application/rss+xml" />
+    <description>Sai Liang</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 01 Dec 2019 16:31:21 -0500</lastBuildDate>
+    <image>
+      <url>https://taiebat.github.io/img/icon-512.png</url>
+      <title>Sai Liang</title>
+      <link>https://taiebat.github.io/authors/sai-liang/</link>
+    </image>
+    
+    <item>
+      <title>Scale, Distribution and Variations of Global Greenhouse Gas Emissions Driven by U.S. Households</title>
+      <link>https://taiebat.github.io/publication/201912-scale-distribution-and-variations-of-ghg-emissions-driven-by-us-households/</link>
+      <pubDate>Sun, 01 Dec 2019 16:31:21 -0500</pubDate>
+      <guid>https://taiebat.github.io/publication/201912-scale-distribution-and-variations-of-ghg-emissions-driven-by-us-households/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Regional Water Footprint and Interregional Virtual Water Transfer in China</title>
+      <link>https://taiebat.github.io/publication/201908-regional-water-footprint-and-interregional-virtual-water-transfer-in-china/</link>
+      <pubDate>Sat, 10 Aug 2019 17:04:51 -0500</pubDate>
+      <guid>https://taiebat.github.io/publication/201908-regional-water-footprint-and-interregional-virtual-water-transfer-in-china/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

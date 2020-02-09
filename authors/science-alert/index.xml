@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Science Alert | Morteza Taiebat</title>
+    <link>https://taiebat.github.io/authors/science-alert/</link>
+      <atom:link href="https://taiebat.github.io/authors/science-alert/index.xml" rel="self" type="application/rss+xml" />
+    <description>Science Alert</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 23 Apr 2019 00:41:16 -0500</lastBuildDate>
+    <image>
+      <url>https://taiebat.github.io/img/icon-512.png</url>
+      <title>Science Alert</title>
+      <link>https://taiebat.github.io/authors/science-alert/</link>
+    </image>
+    
+    <item>
+      <title>Here&#39;s The Bizarre Reason Self-Driving Cars Might Not Cut Down Traffic After All</title>
+      <link>https://taiebat.github.io/project/201904-science-alert/</link>
+      <pubDate>Tue, 23 Apr 2019 00:41:16 -0500</pubDate>
+      <guid>https://taiebat.github.io/project/201904-science-alert/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

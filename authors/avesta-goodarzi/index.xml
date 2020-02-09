@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Avesta Goodarzi | Morteza Taiebat</title>
+    <link>https://taiebat.github.io/authors/avesta-goodarzi/</link>
+      <atom:link href="https://taiebat.github.io/authors/avesta-goodarzi/index.xml" rel="self" type="application/rss+xml" />
+    <description>Avesta Goodarzi</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 17 Mar 2017 17:04:51 -0500</lastBuildDate>
+    <image>
+      <url>https://taiebat.github.io/img/icon-512.png</url>
+      <title>Avesta Goodarzi</title>
+      <link>https://taiebat.github.io/authors/avesta-goodarzi/</link>
+    </image>
+    
+    <item>
+      <title>Automatic Steering Control in Tractor Semi-Trailer Vehicles for Low-Speed Maneuverability Enhancement</title>
+      <link>https://taiebat.github.io/publication/201703-automatic-steering-control-in-tractor-semi-trailer-vehicles-for-low-speed-maneuverability-enhancement/</link>
+      <pubDate>Fri, 17 Mar 2017 17:04:51 -0500</pubDate>
+      <guid>https://taiebat.github.io/publication/201703-automatic-steering-control-in-tractor-semi-trailer-vehicles-for-low-speed-maneuverability-enhancement/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
