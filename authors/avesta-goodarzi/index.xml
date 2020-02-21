@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Avesta Goodarzi | Morteza Taiebat</title>
-    <link>/authors/avesta-goodarzi/</link>
-      <atom:link href="/authors/avesta-goodarzi/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://taiebat.github.io/authors/avesta-goodarzi/</link>
+      <atom:link href="https://taiebat.github.io/authors/avesta-goodarzi/index.xml" rel="self" type="application/rss+xml" />
     <description>Avesta Goodarzi</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 17 Mar 2017 17:04:51 -0500</lastBuildDate>
     <image>
-      <url>/img/icon-512.png</url>
+      <url>https://taiebat.github.io/img/icon-512.png</url>
       <title>Avesta Goodarzi</title>
-      <link>/authors/avesta-goodarzi/</link>
+      <link>https://taiebat.github.io/authors/avesta-goodarzi/</link>
     </image>
     
     <item>
       <title>Automatic Steering Control in Tractor Semi-Trailer Vehicles for Low-Speed Maneuverability Enhancement</title>
-      <link>/publication/201703-automatic-steering-control-in-tractor-semi-trailer-vehicles-for-low-speed-maneuverability-enhancement/</link>
+      <link>https://taiebat.github.io/publication/201703-automatic-steering-control-in-tractor-semi-trailer-vehicles-for-low-speed-maneuverability-enhancement/</link>
       <pubDate>Fri, 17 Mar 2017 17:04:51 -0500</pubDate>
-      <guid>/publication/201703-automatic-steering-control-in-tractor-semi-trailer-vehicles-for-low-speed-maneuverability-enhancement/</guid>
+      <guid>https://taiebat.github.io/publication/201703-automatic-steering-control-in-tractor-semi-trailer-vehicles-for-low-speed-maneuverability-enhancement/</guid>
       <description></description>
     </item>
     

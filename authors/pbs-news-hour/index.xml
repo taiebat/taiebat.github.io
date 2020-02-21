@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>PBS News Hour | Morteza Taiebat</title>
-    <link>/authors/pbs-news-hour/</link>
-      <atom:link href="/authors/pbs-news-hour/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://taiebat.github.io/authors/pbs-news-hour/</link>
+      <atom:link href="https://taiebat.github.io/authors/pbs-news-hour/index.xml" rel="self" type="application/rss+xml" />
     <description>PBS News Hour</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 21 Sep 2019 00:41:16 -0500</lastBuildDate>
     <image>
-      <url>/img/icon-512.png</url>
+      <url>https://taiebat.github.io/img/icon-512.png</url>
       <title>PBS News Hour</title>
-      <link>/authors/pbs-news-hour/</link>
+      <link>https://taiebat.github.io/authors/pbs-news-hour/</link>
     </image>
     
     <item>
       <title>5 charts show how your household drives up global greenhouse gas emissions</title>
-      <link>/project/201909-pbs-newshour/</link>
+      <link>https://taiebat.github.io/project/201909-pbs-newshour/</link>
       <pubDate>Sat, 21 Sep 2019 00:41:16 -0500</pubDate>
-      <guid>/project/201909-pbs-newshour/</guid>
+      <guid>https://taiebat.github.io/project/201909-pbs-newshour/</guid>
       <description></description>
     </item>
     

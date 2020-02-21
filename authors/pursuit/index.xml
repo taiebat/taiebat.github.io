@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Pursuit | Morteza Taiebat</title>
-    <link>/authors/pursuit/</link>
-      <atom:link href="/authors/pursuit/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://taiebat.github.io/authors/pursuit/</link>
+      <atom:link href="https://taiebat.github.io/authors/pursuit/index.xml" rel="self" type="application/rss+xml" />
     <description>Pursuit</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 09 May 2019 00:41:16 -0500</lastBuildDate>
     <image>
-      <url>/img/icon-512.png</url>
+      <url>https://taiebat.github.io/img/icon-512.png</url>
       <title>Pursuit</title>
-      <link>/authors/pursuit/</link>
+      <link>https://taiebat.github.io/authors/pursuit/</link>
     </image>
     
     <item>
       <title>Self-Driving Cars Will Likely Drive Up Traffic Levels, Study Finds</title>
-      <link>/project/201904-pursuit/</link>
+      <link>https://taiebat.github.io/project/201904-pursuit/</link>
       <pubDate>Thu, 09 May 2019 00:41:16 -0500</pubDate>
-      <guid>/project/201904-pursuit/</guid>
+      <guid>https://taiebat.github.io/project/201904-pursuit/</guid>
       <description></description>
     </item>
     

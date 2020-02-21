@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Kaihui Song | Morteza Taiebat</title>
-    <link>/authors/kaihui-song/</link>
-      <atom:link href="/authors/kaihui-song/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://taiebat.github.io/authors/kaihui-song/</link>
+      <atom:link href="https://taiebat.github.io/authors/kaihui-song/index.xml" rel="self" type="application/rss+xml" />
     <description>Kaihui Song</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 01 Dec 2019 16:31:21 -0500</lastBuildDate>
     <image>
-      <url>/img/icon-512.png</url>
+      <url>https://taiebat.github.io/img/icon-512.png</url>
       <title>Kaihui Song</title>
-      <link>/authors/kaihui-song/</link>
+      <link>https://taiebat.github.io/authors/kaihui-song/</link>
     </image>
     
     <item>
       <title>Scale, Distribution and Variations of Global Greenhouse Gas Emissions Driven by U.S. Households</title>
-      <link>/publication/201912-scale-distribution-and-variations-of-ghg-emissions-driven-by-us-households/</link>
+      <link>https://taiebat.github.io/publication/201912-scale-distribution-and-variations-of-ghg-emissions-driven-by-us-households/</link>
       <pubDate>Sun, 01 Dec 2019 16:31:21 -0500</pubDate>
-      <guid>/publication/201912-scale-distribution-and-variations-of-ghg-emissions-driven-by-us-households/</guid>
+      <guid>https://taiebat.github.io/publication/201912-scale-distribution-and-variations-of-ghg-emissions-driven-by-us-households/</guid>
       <description></description>
     </item>
     

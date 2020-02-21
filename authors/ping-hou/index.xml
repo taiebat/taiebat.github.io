@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ping Hou | Morteza Taiebat</title>
-    <link>/authors/ping-hou/</link>
-      <atom:link href="/authors/ping-hou/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://taiebat.github.io/authors/ping-hou/</link>
+      <atom:link href="https://taiebat.github.io/authors/ping-hou/index.xml" rel="self" type="application/rss+xml" />
     <description>Ping Hou</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 03 Aug 2018 17:04:51 -0500</lastBuildDate>
     <image>
-      <url>/img/icon-512.png</url>
+      <url>https://taiebat.github.io/img/icon-512.png</url>
       <title>Ping Hou</title>
-      <link>/authors/ping-hou/</link>
+      <link>https://taiebat.github.io/authors/ping-hou/</link>
     </image>
     
     <item>
       <title>Life Cycle Assessment of End-of-Life Treatments for Plastic Film Waste</title>
-      <link>/publication/201808-lca-of-end-of-life-treatments-forplastic-film-waste/</link>
+      <link>https://taiebat.github.io/publication/201808-lca-of-end-of-life-treatments-forplastic-film-waste/</link>
       <pubDate>Fri, 03 Aug 2018 17:04:51 -0500</pubDate>
-      <guid>/publication/201808-lca-of-end-of-life-treatments-forplastic-film-waste/</guid>
+      <guid>https://taiebat.github.io/publication/201808-lca-of-end-of-life-treatments-forplastic-film-waste/</guid>
       <description></description>
     </item>
     
