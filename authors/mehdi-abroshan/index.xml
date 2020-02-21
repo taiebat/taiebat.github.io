@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Mehdi Abroshan | Morteza Taiebat</title>
-    <link>https://taiebat.github.io/authors/mehdi-abroshan/</link>
-      <atom:link href="https://taiebat.github.io/authors/mehdi-abroshan/index.xml" rel="self" type="application/rss+xml" />
+    <link>/authors/mehdi-abroshan/</link>
+      <atom:link href="/authors/mehdi-abroshan/index.xml" rel="self" type="application/rss+xml" />
     <description>Mehdi Abroshan</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 17 Mar 2017 17:04:51 -0500</lastBuildDate>
     <image>
-      <url>https://taiebat.github.io/img/icon-512.png</url>
+      <url>/img/icon-512.png</url>
       <title>Mehdi Abroshan</title>
-      <link>https://taiebat.github.io/authors/mehdi-abroshan/</link>
+      <link>/authors/mehdi-abroshan/</link>
     </image>
     
     <item>
       <title>Automatic Steering Control in Tractor Semi-Trailer Vehicles for Low-Speed Maneuverability Enhancement</title>
-      <link>https://taiebat.github.io/publication/201703-automatic-steering-control-in-tractor-semi-trailer-vehicles-for-low-speed-maneuverability-enhancement/</link>
+      <link>/publication/201703-automatic-steering-control-in-tractor-semi-trailer-vehicles-for-low-speed-maneuverability-enhancement/</link>
       <pubDate>Fri, 17 Mar 2017 17:04:51 -0500</pubDate>
-      <guid>https://taiebat.github.io/publication/201703-automatic-steering-control-in-tractor-semi-trailer-vehicles-for-low-speed-maneuverability-enhancement/</guid>
+      <guid>/publication/201703-automatic-steering-control-in-tractor-semi-trailer-vehicles-for-low-speed-maneuverability-enhancement/</guid>
       <description></description>
     </item>
     

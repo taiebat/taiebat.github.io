@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Clean Technica | Morteza Taiebat</title>
-    <link>https://taiebat.github.io/authors/clean-technica/</link>
-      <atom:link href="https://taiebat.github.io/authors/clean-technica/index.xml" rel="self" type="application/rss+xml" />
+    <link>/authors/clean-technica/</link>
+      <atom:link href="/authors/clean-technica/index.xml" rel="self" type="application/rss+xml" />
     <description>Clean Technica</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 19 Apr 2019 00:41:16 -0500</lastBuildDate>
     <image>
-      <url>https://taiebat.github.io/img/icon-512.png</url>
+      <url>/img/icon-512.png</url>
       <title>Clean Technica</title>
-      <link>https://taiebat.github.io/authors/clean-technica/</link>
+      <link>/authors/clean-technica/</link>
     </image>
     
     <item>
       <title>More Self-Driving Cars = More Miles Driven &amp; More Energy Consumed</title>
-      <link>https://taiebat.github.io/project/201904-clean-technica/</link>
+      <link>/project/201904-clean-technica/</link>
       <pubDate>Fri, 19 Apr 2019 00:41:16 -0500</pubDate>
-      <guid>https://taiebat.github.io/project/201904-clean-technica/</guid>
+      <guid>/project/201904-clean-technica/</guid>
       <description></description>
     </item>
     

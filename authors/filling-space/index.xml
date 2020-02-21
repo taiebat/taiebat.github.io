@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Filling Space | Morteza Taiebat</title>
-    <link>https://taiebat.github.io/authors/filling-space/</link>
-      <atom:link href="https://taiebat.github.io/authors/filling-space/index.xml" rel="self" type="application/rss+xml" />
+    <link>/authors/filling-space/</link>
+      <atom:link href="/authors/filling-space/index.xml" rel="self" type="application/rss+xml" />
     <description>Filling Space</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 25 Jun 2019 00:41:16 -0500</lastBuildDate>
     <image>
-      <url>https://taiebat.github.io/img/icon-512.png</url>
+      <url>/img/icon-512.png</url>
       <title>Filling Space</title>
-      <link>https://taiebat.github.io/authors/filling-space/</link>
+      <link>/authors/filling-space/</link>
     </image>
     
     <item>
       <title>How will the proliferation of autonomous vehicles affect sustainability?</title>
-      <link>https://taiebat.github.io/project/201906-filling-space/</link>
+      <link>/project/201906-filling-space/</link>
       <pubDate>Tue, 25 Jun 2019 00:41:16 -0500</pubDate>
-      <guid>https://taiebat.github.io/project/201906-filling-space/</guid>
+      <guid>/project/201906-filling-space/</guid>
       <description></description>
     </item>
     

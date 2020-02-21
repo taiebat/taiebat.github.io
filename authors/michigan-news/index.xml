@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Michigan News | Morteza Taiebat</title>
-    <link>https://taiebat.github.io/authors/michigan-news/</link>
-      <atom:link href="https://taiebat.github.io/authors/michigan-news/index.xml" rel="self" type="application/rss+xml" />
+    <link>/authors/michigan-news/</link>
+      <atom:link href="/authors/michigan-news/index.xml" rel="self" type="application/rss+xml" />
     <description>Michigan News</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 17 Apr 2019 00:41:16 -0500</lastBuildDate>
     <image>
-      <url>https://taiebat.github.io/img/icon-512.png</url>
+      <url>/img/icon-512.png</url>
       <title>Michigan News</title>
-      <link>https://taiebat.github.io/authors/michigan-news/</link>
+      <link>/authors/michigan-news/</link>
     </image>
     
     <item>
       <title>Self-driving cars could lead to more driving miles, fewer environmental benefits</title>
-      <link>https://taiebat.github.io/project/201904-michigannews/</link>
+      <link>/project/201904-michigannews/</link>
       <pubDate>Wed, 17 Apr 2019 00:41:16 -0500</pubDate>
-      <guid>https://taiebat.github.io/project/201904-michigannews/</guid>
+      <guid>/project/201904-michigannews/</guid>
       <description></description>
     </item>
     
