@@ -1,13 +1,15 @@
-<!DOCTYPE html>
-<html lang="en-us">
+<!DOCTYPE html><html lang="en-us" >
 
 <head>
 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="generator" content="Source Themes Academic 4.6.3">
+  <meta name="generator" content="Source Themes Academic 4.8.0">
 
+  
+
+  
   
 
   
@@ -44,11 +46,16 @@
 
   
   
+
+  
+  
   
   
     
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" integrity="sha256-+N4/V/SbAFiW1MPBCXnfnP9QSN3+Keu+NlB+0ev/YKQ=" crossorigin="anonymous">
+    
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha256-FMvZuGapsJLjouA6k7Eo2lusoAX9i0ShlWFG6qt7SLc=" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha256-Vzbj7sDDS/woiFS3uNKo8eIuni59rjyNGtXfstRzStA=" crossorigin="anonymous">
 
     
@@ -60,8 +67,8 @@
       
       
         
-          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/styles/github.min.css" crossorigin="anonymous" title="hl-light">
-          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.2/styles/github.min.css" crossorigin="anonymous" title="hl-light">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.2/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
         
       
     
@@ -70,12 +77,135 @@
 
     
 
+    
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.1.2/lazysizes.min.js" integrity="sha256-Md1qLToewPeKjfAHU1zyPwOutccPAm5tahnaw7Osw0A=" crossorigin="anonymous" async></script>
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+        
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+
   
 
   
   
   
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7CRoboto:400,400italic,700%7CRoboto+Mono&display=swap">
+    
+      
+      
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7CRoboto:400,400italic,700%7CRoboto+Mono&display=swap">
+    
   
 
   
@@ -98,13 +228,15 @@
       dataLayer.push(arguments);
   }
 
-  function trackOutboundLink(url) {
+  function trackOutboundLink(url, target) {
     gtag('event', 'click', {
          'event_category': 'outbound',
          'event_label': url,
          'transport_type': 'beacon',
          'event_callback': function () {
-           document.location = url;
+           if (target !== '_blank') {
+             document.location = url;
+           }
          }
     });
     console.debug("Outbound link clicked: " + url);
@@ -114,7 +246,7 @@
     if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
       return;
     }
-    trackOutboundLink(event.target);  
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
   }
 
   gtag('js', new Date());
@@ -129,15 +261,23 @@
 
 
   
+  
+  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+  
+
+  
   <link rel="alternate" href="/index.xml" type="application/rss+xml" title="Morteza Taiebat">
   
 
   <link rel="manifest" href="/index.webmanifest">
-  <link rel="icon" type="image/png" href="/img/icon-32.png">
-  <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
+  <link rel="icon" type="image/png" href="/images/icon_hudd9b251b05fa576c42ec1aa19b8230a1_38775_32x32_fill_lanczos_center_2.png">
+  <link rel="apple-touch-icon" type="image/png" href="/images/icon_hudd9b251b05fa576c42ec1aa19b8230a1_38775_192x192_fill_lanczos_center_2.png">
 
   <link rel="canonical" href="https://taiebat.github.io/">
 
+  
+  
+  
   
   
   
@@ -154,8 +294,8 @@
   <meta property="og:site_name" content="Morteza Taiebat">
   <meta property="og:url" content="https://taiebat.github.io/">
   <meta property="og:title" content="Morteza Taiebat">
-  <meta property="og:description" content="PhD Candidate"><meta property="og:image" content="https://taiebat.github.io/img/icon-512.png">
-  <meta property="twitter:image" content="https://taiebat.github.io/img/icon-512.png"><meta property="og:locale" content="en-us">
+  <meta property="og:description" content="PhD Candidate"><meta property="og:image" content="https://taiebat.github.io/images/logo_hudd9b251b05fa576c42ec1aa19b8230a1_38775_300x300_fit_lanczos_2.png">
+  <meta property="twitter:image" content="https://taiebat.github.io/images/logo_hudd9b251b05fa576c42ec1aa19b8230a1_38775_300x300_fit_lanczos_2.png"><meta property="og:locale" content="en-us">
   
     <meta property="og:updated_time" content="2019-12-01T16:31:21-05:00">
   
@@ -192,7 +332,16 @@
 
 </head>
 
-<body id="top" data-spy="scroll" data-offset="70" data-target="#navbar-main" >
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#navbar-main" class=" ">
+
+  
+  
+  
+    <script>const isSiteThemeDark = false;</script>
+  
+  
+  <script src="/js/load-theme.js"></script>
 
   <aside class="search-results" id="search">
   <div class="container">
@@ -210,7 +359,7 @@
       <div id="search-box">
         
         <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
-        autocomplete="off" autocorrect="off" spellcheck="false" type="search">
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search" class="form-control">
         
       </div>
 
@@ -228,12 +377,25 @@
 
   
 
+
+
+
+
+
+
+
+
+
+
+  
+
+
 <nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
   <div class="container">
 
     
     <div class="d-none d-lg-inline-flex">
-      <a class="navbar-brand" href="/"><img src="/img/icon-512.png" alt="Morteza Taiebat"></a>
+      <a class="navbar-brand" href="/"><img src="/images/logo_hudd9b251b05fa576c42ec1aa19b8230a1_38775_0x70_resize_lanczos_2.png" alt="Morteza Taiebat"></a>
     </div>
     
 
@@ -246,7 +408,7 @@
 
     
     <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
-      <a class="navbar-brand" href="/"><img src="/img/icon-512.png" alt="Morteza Taiebat"></a>
+      <a class="navbar-brand" href="/"><img src="/images/logo_hudd9b251b05fa576c42ec1aa19b8230a1_38775_0x70_resize_lanczos_2.png" alt="Morteza Taiebat"></a>
     </div>
     
 
@@ -267,16 +429,24 @@
         
 
         
+
         
         
         
         
+
         
           
+            
+            
           
           
             
-          
+            
+            
+              
+            
+            
           
         
 
@@ -296,16 +466,24 @@
         
 
         
+
         
         
         
         
+
         
           
+            
+            
           
           
             
-          
+            
+            
+              
+            
+            
           
         
 
@@ -325,16 +503,24 @@
         
 
         
+
         
         
         
         
+
         
           
+            
+            
           
           
             
-          
+            
+            
+              
+            
+            
           
         
 
@@ -354,16 +540,24 @@
         
 
         
+
         
         
         
         
+
         
           
+            
+            
           
           
             
-          
+            
+            
+              
+            
+            
           
         
 
@@ -428,13 +622,26 @@
     <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
       
       <li class="nav-item">
-        <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
+        <a class="nav-link js-search" href="#" aria-label="Search"><i class="fas fa-search" aria-hidden="true"></i></a>
       </li>
       
 
       
-      <li class="nav-item">
-        <a class="nav-link js-dark-toggle" href="#"><i class="fas fa-moon" aria-hidden="true"></i></a>
+      <li class="nav-item dropdown theme-dropdown">
+        <a href="#" class="nav-link js-theme-selector" data-toggle="dropdown" aria-haspopup="true">
+          <i class="fas fa-palette" aria-hidden="true"></i>
+        </a>
+        <div class="dropdown-menu">
+          <a href="#" class="dropdown-item js-set-theme-light">
+            <span>Light</span>
+          </a>
+          <a href="#" class="dropdown-item js-set-theme-dark">
+            <span>Dark</span>
+          </a>
+          <a href="#" class="dropdown-item js-set-theme-auto">
+            <span>Automatic</span>
+          </a>
+        </div>
       </li>
       
 
@@ -446,6 +653,7 @@
 </nav>
 
 
+
   
 
 
@@ -458,25 +666,23 @@
 
 
 
+  
 <span class="js-widget-page d-none"></span>
 
 
 
 
+
+  
+  
+  
   
 
 
 
 
-
-
-
   
   
-  
-
-  
-
   
 
   
@@ -486,6 +692,13 @@
   
 
   
+
+  
+  
+
+  
+
+  
   
 
   
@@ -499,6 +712,8 @@
   
 
   
+  
+
   
 
   <section id="about" class="home-section wg-about   "  >
@@ -518,13 +733,14 @@
 
 
 
+
 <div class="row">
   <div class="col-12 col-lg-4">
     <div id="profile">
 
       
       
-      <img class="portrait" src="/authors/admin/avatar_hu86ab77b78f498325efb88649e79df46a_587023_250x250_fill_q90_lanczos_center.jpg" alt="Avatar">
+      <img class="avatar avatar-circle" src="/authors/admin/avatar_hu86ab77b78f498325efb88649e79df46a_587023_270x270_fill_q90_lanczos_center.jpg" alt="Morteza Taiebat">
       
 
       <div class="portrait-title">
@@ -684,6 +900,10 @@
 <h3 id="research">Research</h3>
 <p>My interest lies in the system-level analysis of the emerging modes of transportation (i.e. <strong>automated</strong>, <strong>shared</strong>, &amp; <strong>electric</strong> vehicles) and understanding how they impact <em>travel pattern</em>, <em>energy use</em>, and <em>economics of mobility</em>.
 My research broadly focuses on leveraging these mobility modes to <strong>improve transportation system efficiency</strong> while <strong>reducing social inequality</strong> and <strong>environmental impacts</strong>. I utilize data science techniques, economics, and optimization to investigate the mechanisms that promote sustainable transportation.</p>
+<p><strong>Skills:</strong>  
+  <i class="fab fa-r-project  pr-1 fa-fw"></i> 
+  <i class="fab fa-python  pr-1 fa-fw"></i> 
+  <i class="fas fa-database  pr-1 fa-fw"></i></p>
 
 
     <div class="row">
@@ -766,6 +986,9 @@ My research broadly focuses on leveraging these mobility modes to <strong>improv
   
 
   
+  
+
+  
 
   
   
@@ -781,6 +1004,8 @@ My research broadly focuses on leveraging these mobility modes to <strong>improv
   
 
   
+  
+
   
 
   <section id="experience" class="home-section wg-experience   "  >
@@ -1028,6 +1253,9 @@ My research broadly focuses on leveraging these mobility modes to <strong>improv
   
 
   
+  
+
+  
 
   
   
@@ -1043,6 +1271,8 @@ My research broadly focuses on leveraging these mobility modes to <strong>improv
   
 
   
+  
+
   
 
   <section id="accomplishments" class="home-section wg-accomplishments   "  >
@@ -1234,6 +1464,9 @@ My research broadly focuses on leveraging these mobility modes to <strong>improv
   
 
   
+  
+
+  
 
   
   
@@ -1249,6 +1482,8 @@ My research broadly focuses on leveraging these mobility modes to <strong>improv
   
 
   
+  
+
   
 
   <section id="publications" class="home-section wg-pages   "  >
@@ -1286,20 +1521,27 @@ My research broadly focuses on leveraging these mobility modes to <strong>improv
 
 
 
+
+  
+
+
+
+
+
   
 
 
 
 
-
+<div class="row ">
   
-
-
-<div class="row">
-  <div class="col-12 col-lg-4 section-heading">
-    <h1>Publications</h1>
     
-  </div>
+      <div class="col-12 col-lg-4 section-heading">
+        <h1>Publications</h1>
+        
+      </div>
+    
+  
   <div class="col-12 col-lg-8">
 
     
@@ -1333,9 +1575,11 @@ My research broadly focuses on leveraging these mobility modes to <strong>improv
     </h3>
 
     
-    <div class="article-style">
-      Environment International <strong>2019</strong>, 133, 105137
-    </div>
+    <a href="/publication/201912-scale-distribution-and-variations-of-ghg-emissions-driven-by-us-households/" class="summary-link">
+      <div class="article-style">
+        Environment International <strong>2019</strong>, 133, 105137
+      </div>
+    </a>
     
 
     <div class="stream-meta article-metadata">
@@ -1346,11 +1590,8 @@ My research broadly focuses on leveraging these mobility modes to <strong>improv
       <div>
         
 
-
-
   
-  <span><a href="/authors/kaihui-song/">Kaihui Song</a></span>, <span><a href="/authors/shen-qu/">Shen Qu</a></span>, <span><a href="/authors/morteza-taiebat/">Morteza Taiebat</a></span>, <span><a href="/authors/sai-liang/">Sai Liang</a></span>, <span><a href="/authors/ming-xu/">Ming Xu</a></span>
-
+  <span >Kaihui Song</span>, <span >Shen Qu</span>, <span >Morteza Taiebat</span>, <span >Sai Liang</span>, <span >Ming Xu</span>
       </div>
       
     </div>
@@ -1416,7 +1657,7 @@ My research broadly focuses on leveraging these mobility modes to <strong>improv
     
     
     <a href="/publication/201912-scale-distribution-and-variations-of-ghg-emissions-driven-by-us-households/" >
-      <img src="/publication/201912-scale-distribution-and-variations-of-ghg-emissions-driven-by-us-households/featured_hu3e64b32e517000143d7c9ac760aa80ad_267002_150x0_resize_lanczos_2.png" alt="">
+      <img src="/publication/201912-scale-distribution-and-variations-of-ghg-emissions-driven-by-us-households/featured_hu3e64b32e517000143d7c9ac760aa80ad_267002_150x0_resize_lanczos_2.png" alt="Scale, Distribution and Variations of Global Greenhouse Gas Emissions Driven by U.S. Households">
     </a>
     
   </div>
@@ -1452,9 +1693,11 @@ My research broadly focuses on leveraging these mobility modes to <strong>improv
     </h3>
 
     
-    <div class="article-style">
-      Journal of Cleaner Production <strong>2019</strong>, 230, 794-797
-    </div>
+    <a href="/publication/201909-synergies-of-four-emerging-technologies-for-accelerated-adoption-of-electric-vehicles/" class="summary-link">
+      <div class="article-style">
+        Journal of Cleaner Production <strong>2019</strong>, 230, 794-797
+      </div>
+    </a>
     
 
     <div class="stream-meta article-metadata">
@@ -1465,11 +1708,8 @@ My research broadly focuses on leveraging these mobility modes to <strong>improv
       <div>
         
 
-
-
   
-  <span><a href="/authors/morteza-taiebat/">Morteza Taiebat</a></span>, <span><a href="/authors/ming-xu/">Ming Xu</a></span>
-
+  <span >Morteza Taiebat</span>, <span >Ming Xu</span>
       </div>
       
     </div>
@@ -1535,7 +1775,7 @@ My research broadly focuses on leveraging these mobility modes to <strong>improv
     
     
     <a href="/publication/201909-synergies-of-four-emerging-technologies-for-accelerated-adoption-of-electric-vehicles/" >
-      <img src="/publication/201909-synergies-of-four-emerging-technologies-for-accelerated-adoption-of-electric-vehicles/featured_hu96843d2ce4c1183f7ee516847920721c_495004_150x0_resize_lanczos_2.png" alt="">
+      <img src="/publication/201909-synergies-of-four-emerging-technologies-for-accelerated-adoption-of-electric-vehicles/featured_hu96843d2ce4c1183f7ee516847920721c_495004_150x0_resize_lanczos_2.png" alt="Synergies of Four Emerging Technologies for Accelerated Adoption of Electric Vehicles: Shared Mobility, Wireless Charging, Vehicle-to-Grid, and Vehicle Automation">
     </a>
     
   </div>
@@ -1571,9 +1811,11 @@ My research broadly focuses on leveraging these mobility modes to <strong>improv
     </h3>
 
     
-    <div class="article-style">
-      Journal of Cleaner Production <strong>2019</strong>, 228, 1401-1412
-    </div>
+    <a href="/publication/201908-regional-water-footprint-and-interregional-virtual-water-transfer-in-china/" class="summary-link">
+      <div class="article-style">
+        Journal of Cleaner Production <strong>2019</strong>, 228, 1401-1412
+      </div>
+    </a>
     
 
     <div class="stream-meta article-metadata">
@@ -1584,11 +1826,8 @@ My research broadly focuses on leveraging these mobility modes to <strong>improv
       <div>
         
 
-
-
   
-  <span><a href="/authors/shidong-zhang/">Shidong Zhang</a></span>, <span><a href="/authors/morteza-taiebat/">Morteza Taiebat</a></span>, <span><a href="/authors/yu-liu/">Yu Liu</a></span>, <span><a href="/authors/shen-qu/">Shen Qu</a></span>, <span><a href="/authors/sai-liang/">Sai Liang</a></span>, <span><a href="/authors/ming-xu/">Ming Xu</a></span>
-
+  <span >Shidong Zhang</span>, <span >Morteza Taiebat</span>, <span >Yu Liu</span>, <span >Shen Qu</span>, <span >Sai Liang</span>, <span >Ming Xu</span>
       </div>
       
     </div>
@@ -1654,7 +1893,7 @@ My research broadly focuses on leveraging these mobility modes to <strong>improv
     
     
     <a href="/publication/201908-regional-water-footprint-and-interregional-virtual-water-transfer-in-china/" >
-      <img src="/publication/201908-regional-water-footprint-and-interregional-virtual-water-transfer-in-china/featured_hu04b1e12e2b9c4f33a52ba227288bc1da_548279_150x0_resize_lanczos_2.png" alt="">
+      <img src="/publication/201908-regional-water-footprint-and-interregional-virtual-water-transfer-in-china/featured_hu04b1e12e2b9c4f33a52ba227288bc1da_548279_150x0_resize_lanczos_2.png" alt="Regional Water Footprint and Interregional Virtual Water Transfer in China">
     </a>
     
   </div>
@@ -1690,9 +1929,11 @@ My research broadly focuses on leveraging these mobility modes to <strong>improv
     </h3>
 
     
-    <div class="article-style">
-      Applied Energy <strong>2019</strong>, 247, 297−308
-    </div>
+    <a href="/publication/201908-forecasting-the-impact-of-cavs-on-energy-use-microeconomic-study-of-induced-travel-and-energy-rebound/" class="summary-link">
+      <div class="article-style">
+        Applied Energy <strong>2019</strong>, 247, 297−308
+      </div>
+    </a>
     
 
     <div class="stream-meta article-metadata">
@@ -1703,11 +1944,8 @@ My research broadly focuses on leveraging these mobility modes to <strong>improv
       <div>
         
 
-
-
   
-  <span><a href="/authors/morteza-taiebat/">Morteza Taiebat</a></span>, <span><a href="/authors/samuel-stolper/">Samuel Stolper</a></span>, <span><a href="/authors/ming-xu/">Ming Xu</a></span>
-
+  <span >Morteza Taiebat</span>, <span >Samuel Stolper</span>, <span >Ming Xu</span>
       </div>
       
     </div>
@@ -1781,7 +2019,7 @@ My research broadly focuses on leveraging these mobility modes to <strong>improv
     
     
     <a href="/publication/201908-forecasting-the-impact-of-cavs-on-energy-use-microeconomic-study-of-induced-travel-and-energy-rebound/" >
-      <img src="/publication/201908-forecasting-the-impact-of-cavs-on-energy-use-microeconomic-study-of-induced-travel-and-energy-rebound/featured_hu46c7225d6f7869a15e393df340859730_62449_150x0_resize_q90_lanczos.jpg" alt="">
+      <img src="/publication/201908-forecasting-the-impact-of-cavs-on-energy-use-microeconomic-study-of-induced-travel-and-energy-rebound/featured_hu46c7225d6f7869a15e393df340859730_62449_150x0_resize_q90_lanczos.jpg" alt="Forecasting the Impact of Connected and Automated Vehicles on Energy Use: A Microeconomic Study of Induced Travel and Energy Rebound">
     </a>
     
   </div>
@@ -1817,9 +2055,11 @@ My research broadly focuses on leveraging these mobility modes to <strong>improv
     </h3>
 
     
-    <div class="article-style">
-      Environmental Science &amp; Technology <strong>2018</strong>, 52, 20, 11449−11465
-    </div>
+    <a href="/publication/201809-review-on-energy-environmental-sustainability-implications-of-connected-and-automated-vehicles/" class="summary-link">
+      <div class="article-style">
+        Environmental Science &amp; Technology <strong>2018</strong>, 52, 20, 11449−11465
+      </div>
+    </a>
     
 
     <div class="stream-meta article-metadata">
@@ -1830,11 +2070,8 @@ My research broadly focuses on leveraging these mobility modes to <strong>improv
       <div>
         
 
-
-
   
-  <span><a href="/authors/morteza-taiebat/">Morteza Taiebat</a></span>, <span><a href="/authors/austin-brown/">Austin Brown</a></span>, <span><a href="/authors/hannah-safford/">Hannah Safford</a></span>, <span><a href="/authors/shen-qu/">Shen Qu</a></span>, <span><a href="/authors/ming-xu/">Ming Xu</a></span>
-
+  <span >Morteza Taiebat</span>, <span >Austin Brown</span>, <span >Hannah Safford</span>, <span >Shen Qu</span>, <span >Ming Xu</span>
       </div>
       
     </div>
@@ -1908,7 +2145,7 @@ My research broadly focuses on leveraging these mobility modes to <strong>improv
     
     
     <a href="/publication/201809-review-on-energy-environmental-sustainability-implications-of-connected-and-automated-vehicles/" >
-      <img src="/publication/201809-review-on-energy-environmental-sustainability-implications-of-connected-and-automated-vehicles/featured_hu2c7b271a675244be0c0690c5c60cc857_161258_150x0_resize_q90_lanczos.jpg" alt="">
+      <img src="/publication/201809-review-on-energy-environmental-sustainability-implications-of-connected-and-automated-vehicles/featured_hu2c7b271a675244be0c0690c5c60cc857_161258_150x0_resize_q90_lanczos.jpg" alt="A Review on Energy, Environmental, and Sustainability Implications of Connected and Automated Vehicles">
     </a>
     
   </div>
@@ -1944,9 +2181,11 @@ My research broadly focuses on leveraging these mobility modes to <strong>improv
     </h3>
 
     
-    <div class="article-style">
-      Journal of Urban Planning &amp; Development <strong>2018</strong>, 144 (4), 04018033
-    </div>
+    <a href="/publication/201808-multiagent-spatial-simulation-of-autonomous-taxis-for-urban-commute-travel-economics-and-environmental-impacts/" class="summary-link">
+      <div class="article-style">
+        Journal of Urban Planning &amp; Development <strong>2018</strong>, 144 (4), 04018033
+      </div>
+    </a>
     
 
     <div class="stream-meta article-metadata">
@@ -1957,11 +2196,8 @@ My research broadly focuses on leveraging these mobility modes to <strong>improv
       <div>
         
 
-
-
   
-  <span><a href="/authors/miaojia-lu/">Miaojia Lu</a></span>, <span><a href="/authors/morteza-taiebat/">Morteza Taiebat</a></span>, <span><a href="/authors/ming-xu/">Ming Xu</a></span>, <span><a href="/authors/shu-chien-hsu/">Shu-Chien Hsu</a></span>
-
+  <span >Miaojia Lu</span>, <span >Morteza Taiebat</span>, <span >Ming Xu</span>, <span >Shu-Chien Hsu</span>
       </div>
       
     </div>
@@ -2027,7 +2263,7 @@ My research broadly focuses on leveraging these mobility modes to <strong>improv
     
     
     <a href="/publication/201808-multiagent-spatial-simulation-of-autonomous-taxis-for-urban-commute-travel-economics-and-environmental-impacts/" >
-      <img src="/publication/201808-multiagent-spatial-simulation-of-autonomous-taxis-for-urban-commute-travel-economics-and-environmental-impacts/featured_hue19e5705c71d0ee4dc60505911b7345a_770660_150x0_resize_lanczos_2.png" alt="">
+      <img src="/publication/201808-multiagent-spatial-simulation-of-autonomous-taxis-for-urban-commute-travel-economics-and-environmental-impacts/featured_hue19e5705c71d0ee4dc60505911b7345a_770660_150x0_resize_lanczos_2.png" alt="Multiagent Spatial Simulation of Autonomous Taxis for Urban Commute: Travel Economics and Environmental Impacts">
     </a>
     
   </div>
@@ -2063,9 +2299,11 @@ My research broadly focuses on leveraging these mobility modes to <strong>improv
     </h3>
 
     
-    <div class="article-style">
-      Journal of Cleaner Production <strong>2018</strong>, 201, 1052-1060
-    </div>
+    <a href="/publication/201808-lca-of-end-of-life-treatments-forplastic-film-waste/" class="summary-link">
+      <div class="article-style">
+        Journal of Cleaner Production <strong>2018</strong>, 201, 1052-1060
+      </div>
+    </a>
     
 
     <div class="stream-meta article-metadata">
@@ -2076,11 +2314,8 @@ My research broadly focuses on leveraging these mobility modes to <strong>improv
       <div>
         
 
-
-
   
-  <span><a href="/authors/ping-hou/">Ping Hou</a></span>, <span><a href="/authors/yifan-xu/">Yifan Xu</a></span>, <span><a href="/authors/morteza-taiebat/">Morteza Taiebat</a></span>, <span><a href="/authors/christian-lastoskie/">Christian Lastoskie</a></span>, <span><a href="/authors/shelie-miller/">Shelie Miller</a></span>, <span><a href="/authors/ming-xu/">Ming Xu</a></span>
-
+  <span >Ping Hou</span>, <span >Yifan Xu</span>, <span >Morteza Taiebat</span>, <span >Christian Lastoskie</span>, <span >Shelie Miller</span>, <span >Ming Xu</span>
       </div>
       
     </div>
@@ -2146,7 +2381,7 @@ My research broadly focuses on leveraging these mobility modes to <strong>improv
     
     
     <a href="/publication/201808-lca-of-end-of-life-treatments-forplastic-film-waste/" >
-      <img src="/publication/201808-lca-of-end-of-life-treatments-forplastic-film-waste/featured_hu70307094743a294cef9a8afd89de5b62_61902_150x0_resize_q90_lanczos.jpg" alt="">
+      <img src="/publication/201808-lca-of-end-of-life-treatments-forplastic-film-waste/featured_hu70307094743a294cef9a8afd89de5b62_61902_150x0_resize_q90_lanczos.jpg" alt="Life Cycle Assessment of End-of-Life Treatments for Plastic Film Waste">
     </a>
     
   </div>
@@ -2182,9 +2417,11 @@ My research broadly focuses on leveraging these mobility modes to <strong>improv
     </h3>
 
     
-    <div class="article-style">
-      Resources, Conservation and Recycling <strong>2018</strong>, 128, 22–24
-    </div>
+    <a href="/publication/201801-sustainability-implications-of-cavs-for-food-supply-chain/" class="summary-link">
+      <div class="article-style">
+        Resources, Conservation and Recycling <strong>2018</strong>, 128, 22–24
+      </div>
+    </a>
     
 
     <div class="stream-meta article-metadata">
@@ -2195,11 +2432,8 @@ My research broadly focuses on leveraging these mobility modes to <strong>improv
       <div>
         
 
-
-
   
-  <span><a href="/authors/brent-heard/">Brent Heard</a></span>, <span><a href="/authors/morteza-taiebat/">Morteza Taiebat</a></span>, <span><a href="/authors/ming-xu/">Ming Xu</a></span>, <span><a href="/authors/shelie-miller/">Shelie Miller</a></span>
-
+  <span >Brent Heard</span>, <span >Morteza Taiebat</span>, <span >Ming Xu</span>, <span >Shelie Miller</span>
       </div>
       
     </div>
@@ -2265,7 +2499,7 @@ My research broadly focuses on leveraging these mobility modes to <strong>improv
     
     
     <a href="/publication/201801-sustainability-implications-of-cavs-for-food-supply-chain/" >
-      <img src="/publication/201801-sustainability-implications-of-cavs-for-food-supply-chain/featured_hu5d0e052d3ac7d33d93f19fd8c9320d72_362028_150x0_resize_q90_lanczos.jpg" alt="">
+      <img src="/publication/201801-sustainability-implications-of-cavs-for-food-supply-chain/featured_hu5d0e052d3ac7d33d93f19fd8c9320d72_362028_150x0_resize_q90_lanczos.jpg" alt="Sustainability Implications of Connected and Autonomous Vehicles for the Food Supply Chain">
     </a>
     
   </div>
@@ -2301,9 +2535,11 @@ My research broadly focuses on leveraging these mobility modes to <strong>improv
     </h3>
 
     
-    <div class="article-style">
-      Transactions of the Canadian Society for Mechanical Engineering <strong>2017</strong>, 41(3), 469-487
-    </div>
+    <a href="/publication/201705-distinguishing-sensor-and-system-faults-by-utilizing-minimum-sensor-redundancy/" class="summary-link">
+      <div class="article-style">
+        Transactions of the Canadian Society for Mechanical Engineering <strong>2017</strong>, 41(3), 469-487
+      </div>
+    </a>
     
 
     <div class="stream-meta article-metadata">
@@ -2314,11 +2550,8 @@ My research broadly focuses on leveraging these mobility modes to <strong>improv
       <div>
         
 
-
-
   
-  <span><a href="/authors/morteza-taiebat/">Morteza Taiebat</a></span>, <span><a href="/authors/farrokh-sassani/">Farrokh Sassani</a></span>
-
+  <span >Morteza Taiebat</span>, <span >Farrokh Sassani</span>
       </div>
       
     </div>
@@ -2415,9 +2648,11 @@ My research broadly focuses on leveraging these mobility modes to <strong>improv
     </h3>
 
     
-    <div class="article-style">
-      Proc. IMechE Part K: Journal of Multi-body Dynamics <strong>2017</strong>, 231(1), 83–102
-    </div>
+    <a href="/publication/201703-automatic-steering-control-in-tractor-semi-trailer-vehicles-for-low-speed-maneuverability-enhancement/" class="summary-link">
+      <div class="article-style">
+        Proc. IMechE Part K: Journal of Multi-body Dynamics <strong>2017</strong>, 231(1), 83–102
+      </div>
+    </a>
     
 
     <div class="stream-meta article-metadata">
@@ -2428,11 +2663,8 @@ My research broadly focuses on leveraging these mobility modes to <strong>improv
       <div>
         
 
-
-
   
-  <span><a href="/authors/mehdi-abroshan/">Mehdi Abroshan</a></span>, <span><a href="/authors/morteza-taiebat/">Morteza Taiebat</a></span>, <span><a href="/authors/avesta-goodarzi/">Avesta Goodarzi</a></span>, <span><a href="/authors/amir-khajepour/">Amir Khajepour</a></span>
-
+  <span >Mehdi Abroshan</span>, <span >Morteza Taiebat</span>, <span >Avesta Goodarzi</span>, <span >Amir Khajepour</span>
       </div>
       
     </div>
@@ -2498,7 +2730,7 @@ My research broadly focuses on leveraging these mobility modes to <strong>improv
     
     
     <a href="/publication/201703-automatic-steering-control-in-tractor-semi-trailer-vehicles-for-low-speed-maneuverability-enhancement/" >
-      <img src="/publication/201703-automatic-steering-control-in-tractor-semi-trailer-vehicles-for-low-speed-maneuverability-enhancement/featured_hud27df36e21cf0ec3d53fb4870d9cb9ab_621462_150x0_resize_lanczos_2.png" alt="">
+      <img src="/publication/201703-automatic-steering-control-in-tractor-semi-trailer-vehicles-for-low-speed-maneuverability-enhancement/featured_hud27df36e21cf0ec3d53fb4870d9cb9ab_621462_150x0_resize_lanczos_2.png" alt="Automatic Steering Control in Tractor Semi-Trailer Vehicles for Low-Speed Maneuverability Enhancement">
     </a>
     
   </div>
@@ -2507,6 +2739,8 @@ My research broadly focuses on leveraging these mobility modes to <strong>improv
       
     
 
+    
+    
     
 
   </div>
@@ -2528,6 +2762,9 @@ My research broadly focuses on leveraging these mobility modes to <strong>improv
   
 
   
+  
+
+  
 
   
   
@@ -2543,6 +2780,8 @@ My research broadly focuses on leveraging these mobility modes to <strong>improv
   
 
   
+  
+
   
 
   <section id="media" class="home-section wg-portfolio   "  >
@@ -2559,13 +2798,13 @@ My research broadly focuses on leveraging these mobility modes to <strong>improv
 
 
 <div class="row">
-  <div class="col-xs-12 col-md-4 section-heading">
+  <div class="col-12 col-lg-4 section-heading">
 
     <h1>Media</h1>
     <p>Selected Media Coverage of Research</p>
 
   </div>
-  <div class="col-xs-12 col-md-8">
+  <div class="col-12 col-lg-8">
 
 
 
@@ -2618,9 +2857,11 @@ My research broadly focuses on leveraging these mobility modes to <strong>improv
     </h3>
 
     
-    <div class="article-style">
-      As the public conversation about climate change gets increasingly serious, many Americans may be wondering: How do my individual …
-    </div>
+    <a href="/project/201909-pbs-newshour/" class="summary-link">
+      <div class="article-style">
+        As the public conversation about climate change gets increasingly serious, many Americans may be wondering: How do my individual choices affect climate change?
+      </div>
+    </a>
     
 
     <div class="stream-meta article-metadata">
@@ -2631,11 +2872,8 @@ My research broadly focuses on leveraging these mobility modes to <strong>improv
       <div>
         
 
-
-
   
-  <span><a href="/authors/pbs-news-hour/">PBS News Hour</a></span>
-
+  <span >PBS News Hour</span>
       </div>
       
     </div>
@@ -2680,7 +2918,7 @@ My research broadly focuses on leveraging these mobility modes to <strong>improv
     
     
     <a href="https://www.pbs.org/newshour/science/5-charts-show-how-your-household-drives-up-global-greenhouse-gas-emissions" target="_blank" rel="noopener">
-      <img src="/project/201909-pbs-newshour/featured_hucf967c33f389130ab619766a81118218_84972_150x0_resize_q90_lanczos.jpg" alt="">
+      <img src="/project/201909-pbs-newshour/featured_hucf967c33f389130ab619766a81118218_84972_150x0_resize_q90_lanczos.jpg" alt="5 charts show how your household drives up global greenhouse gas emissions">
     </a>
     
   </div>
@@ -2734,9 +2972,11 @@ My research broadly focuses on leveraging these mobility modes to <strong>improv
     </h3>
 
     
-    <div class="article-style">
-      Transportation and food are two major contributors to household emissions.
-    </div>
+    <a href="/project/201909-the-conversation/" class="summary-link">
+      <div class="article-style">
+        Transportation and food are two major contributors to household emissions.
+      </div>
+    </a>
     
 
     <div class="stream-meta article-metadata">
@@ -2747,11 +2987,8 @@ My research broadly focuses on leveraging these mobility modes to <strong>improv
       <div>
         
 
-
-
   
-  <span><a href="/authors/the-conversation/">The Conversation</a></span>
-
+  <span >The Conversation</span>
       </div>
       
     </div>
@@ -2796,7 +3033,7 @@ My research broadly focuses on leveraging these mobility modes to <strong>improv
     
     
     <a href="https://theconversation.com/5-charts-show-how-your-household-drives-up-global-greenhouse-gas-emissions-119968" target="_blank" rel="noopener">
-      <img src="/project/201909-the-conversation/featured_hu3d03a01dcc18bc5be0e67db3d8d209a6_27886_150x0_resize_q90_lanczos.jpg" alt="">
+      <img src="/project/201909-the-conversation/featured_hu3d03a01dcc18bc5be0e67db3d8d209a6_27886_150x0_resize_q90_lanczos.jpg" alt="5 charts show how your household drives up global greenhouse gas emissions">
     </a>
     
   </div>
@@ -2850,9 +3087,11 @@ My research broadly focuses on leveraging these mobility modes to <strong>improv
     </h3>
 
     
-    <div class="article-style">
-      Experts largely agreed that the widespread adoption of AVs will only benefit sustainability when combined with wider societal change.
-    </div>
+    <a href="/project/201906-filling-space/" class="summary-link">
+      <div class="article-style">
+        Experts largely agreed that the widespread adoption of AVs will only benefit sustainability when combined with wider societal change.
+      </div>
+    </a>
     
 
     <div class="stream-meta article-metadata">
@@ -2863,11 +3102,8 @@ My research broadly focuses on leveraging these mobility modes to <strong>improv
       <div>
         
 
-
-
   
-  <span><a href="/authors/filling-space/">Filling Space</a></span>
-
+  <span >Filling Space</span>
       </div>
       
     </div>
@@ -2912,7 +3148,7 @@ My research broadly focuses on leveraging these mobility modes to <strong>improv
     
     
     <a href="https://filling-space.com/2019/06/26/how-will-the-proliferation-of-autonomous-vehicles-affect-sustainability/" target="_blank" rel="noopener">
-      <img src="/project/201906-filling-space/featured_hu357f51c215df6ade572c6f16bcd7105f_188714_150x0_resize_q90_lanczos.jpg" alt="">
+      <img src="/project/201906-filling-space/featured_hu357f51c215df6ade572c6f16bcd7105f_188714_150x0_resize_q90_lanczos.jpg" alt="How will the proliferation of autonomous vehicles affect sustainability?">
     </a>
     
   </div>
@@ -2966,9 +3202,11 @@ My research broadly focuses on leveraging these mobility modes to <strong>improv
     </h3>
 
     
-    <div class="article-style">
-      The benefits of self-driving cars include safer roads, less energy consumption, and a decrease in pollution levels. However, the …
-    </div>
+    <a href="/project/201904-pursuit/" class="summary-link">
+      <div class="article-style">
+        The benefits of self-driving cars include safer roads, less energy consumption, and a decrease in pollution levels. However, the convenience of autonomous vehicles may actually increase the time people spend in their vehicles, which will affect traffic levels.
+      </div>
+    </a>
     
 
     <div class="stream-meta article-metadata">
@@ -2979,11 +3217,8 @@ My research broadly focuses on leveraging these mobility modes to <strong>improv
       <div>
         
 
-
-
   
-  <span><a href="/authors/pursuit/">Pursuit</a></span>
-
+  <span ><a href="/authors/pursuit/">Pursuit</a></span>
       </div>
       
     </div>
@@ -3028,7 +3263,7 @@ My research broadly focuses on leveraging these mobility modes to <strong>improv
     
     
     <a href="https://pursuit.ca/lifestyle/self-driving-cars-will-likely-drive-up-traffic-levels-study-finds/" target="_blank" rel="noopener">
-      <img src="/project/201904-pursuit/featured_hua572d4421820ec9167822587f0ae2a13_2204808_150x0_resize_q90_lanczos.jpg" alt="">
+      <img src="/project/201904-pursuit/featured_hua572d4421820ec9167822587f0ae2a13_2204808_150x0_resize_q90_lanczos.jpg" alt="Self-Driving Cars Will Likely Drive Up Traffic Levels, Study Finds">
     </a>
     
   </div>
@@ -3082,9 +3317,11 @@ My research broadly focuses on leveraging these mobility modes to <strong>improv
     </h3>
 
     
-    <div class="article-style">
-      We know that self-driving cars are promising to make the roads safer and give us more time to relax, but the energy-saving and …
-    </div>
+    <a href="/project/201904-science-alert/" class="summary-link">
+      <div class="article-style">
+        We know that self-driving cars are promising to make the roads safer and give us more time to relax, but the energy-saving and pollution-cutting benefits are also important. Now a new study suggests those benefits might not be as big as we thought.
+      </div>
+    </a>
     
 
     <div class="stream-meta article-metadata">
@@ -3095,11 +3332,8 @@ My research broadly focuses on leveraging these mobility modes to <strong>improv
       <div>
         
 
-
-
   
-  <span><a href="/authors/science-alert/">Science Alert</a></span>
-
+  <span >Science Alert</span>
       </div>
       
     </div>
@@ -3144,7 +3378,7 @@ My research broadly focuses on leveraging these mobility modes to <strong>improv
     
     
     <a href="https://www.sciencealert.com/here-s-the-reason-self-driving-cars-might-not-cut-down-on-traffic-after-all" target="_blank" rel="noopener">
-      <img src="/project/201904-science-alert/featured_hu54fb84b4af7a36f6981f910d339b8493_131146_150x0_resize_q90_lanczos.jpg" alt="">
+      <img src="/project/201904-science-alert/featured_hu54fb84b4af7a36f6981f910d339b8493_131146_150x0_resize_q90_lanczos.jpg" alt="Here&#39;s The Bizarre Reason Self-Driving Cars Might Not Cut Down Traffic After All">
     </a>
     
   </div>
@@ -3198,9 +3432,11 @@ My research broadly focuses on leveraging these mobility modes to <strong>improv
     </h3>
 
     
-    <div class="article-style">
-      Researchers suggest fuel savings may not be as high as anticipated.
-    </div>
+    <a href="/project/201904-consumer-affairs/" class="summary-link">
+      <div class="article-style">
+        Researchers suggest fuel savings may not be as high as anticipated.
+      </div>
+    </a>
     
 
     <div class="stream-meta article-metadata">
@@ -3211,11 +3447,8 @@ My research broadly focuses on leveraging these mobility modes to <strong>improv
       <div>
         
 
-
-
   
-  <span><a href="/authors/consumer-affairs/">Consumer Affairs</a></span>
-
+  <span >Consumer Affairs</span>
       </div>
       
     </div>
@@ -3260,7 +3493,7 @@ My research broadly focuses on leveraging these mobility modes to <strong>improv
     
     
     <a href="https://www.consumeraffairs.com/news/self-driving-cars-could-lead-to-more-driving-miles-fewer-environmental-benefits-042219.html" target="_blank" rel="noopener">
-      <img src="/project/201904-consumer-affairs/featured_hu057f8f9a69e545c130c18e3b7c9edddf_83568_150x0_resize_q90_lanczos.jpg" alt="">
+      <img src="/project/201904-consumer-affairs/featured_hu057f8f9a69e545c130c18e3b7c9edddf_83568_150x0_resize_q90_lanczos.jpg" alt="Self-driving cars could lead to more driving miles, fewer environmental benefits">
     </a>
     
   </div>
@@ -3314,9 +3547,11 @@ My research broadly focuses on leveraging these mobility modes to <strong>improv
     </h3>
 
     
-    <div class="article-style">
-      A study by researchers at the University of Michigan School For Environment And Sustainability led by doctoral fellow Morteza Taiebat …
-    </div>
+    <a href="/project/201904-clean-technica/" class="summary-link">
+      <div class="article-style">
+        A study by researchers at the University of Michigan School For Environment And Sustainability led by doctoral fellow Morteza Taiebat claims people with self-driving cars will drive more miles, which in turn means the transportation sector will use more energy rather than less.
+      </div>
+    </a>
     
 
     <div class="stream-meta article-metadata">
@@ -3327,11 +3562,8 @@ My research broadly focuses on leveraging these mobility modes to <strong>improv
       <div>
         
 
-
-
   
-  <span><a href="/authors/clean-technica/">Clean Technica</a></span>
-
+  <span >Clean Technica</span>
       </div>
       
     </div>
@@ -3376,7 +3608,7 @@ My research broadly focuses on leveraging these mobility modes to <strong>improv
     
     
     <a href="https://cleantechnica.com/2019/04/19/more-self-driving-cars-more-miles-driven-more-energy-consumed/" target="_blank" rel="noopener">
-      <img src="/project/201904-clean-technica/featured_hu94ba400e58ddaeb0641b88cf3f54255e_63270_150x0_resize_q90_lanczos.jpg" alt="">
+      <img src="/project/201904-clean-technica/featured_hu94ba400e58ddaeb0641b88cf3f54255e_63270_150x0_resize_q90_lanczos.jpg" alt="More Self-Driving Cars = More Miles Driven &amp; More Energy Consumed">
     </a>
     
   </div>
@@ -3430,9 +3662,11 @@ My research broadly focuses on leveraging these mobility modes to <strong>improv
     </h3>
 
     
-    <div class="article-style">
-      Self-driving cars could prove so cheap to fuel and convenient to use that their owners end up riding in them more, causing them to use …
-    </div>
+    <a href="/project/201904-eenews/" class="summary-link">
+      <div class="article-style">
+        Self-driving cars could prove so cheap to fuel and convenient to use that their owners end up riding in them more, causing them to use more energy — and raising questions about their carbon footprint, according to a new study from University of Michigan researchers.
+      </div>
+    </a>
     
 
     <div class="stream-meta article-metadata">
@@ -3443,11 +3677,8 @@ My research broadly focuses on leveraging these mobility modes to <strong>improv
       <div>
         
 
-
-
   
-  <span><a href="/authors/ee-news-energywire/">E&amp;E News: ENERGYWIRE</a></span>
-
+  <span >E&amp;E News: ENERGYWIRE</span>
       </div>
       
     </div>
@@ -3492,7 +3723,7 @@ My research broadly focuses on leveraging these mobility modes to <strong>improv
     
     
     <a href="https://www.eenews.net/energywire/stories/1060175895/" target="_blank" rel="noopener">
-      <img src="/project/201904-eenews/featured_hue231359eeeb9b1f89aa2bb5ed6912959_135229_150x0_resize_q90_lanczos.jpg" alt="">
+      <img src="/project/201904-eenews/featured_hue231359eeeb9b1f89aa2bb5ed6912959_135229_150x0_resize_q90_lanczos.jpg" alt="Self-driving cars may need more fuel than previously thought">
     </a>
     
   </div>
@@ -3546,9 +3777,11 @@ My research broadly focuses on leveraging these mobility modes to <strong>improv
     </h3>
 
     
-    <div class="article-style">
-      The benefits of self-driving cars will likely induce vehicle owners to drive more, and those extra miles could partially or completely …
-    </div>
+    <a href="/project/201904-michigannews/" class="summary-link">
+      <div class="article-style">
+        The benefits of self-driving cars will likely induce vehicle owners to drive more, and those extra miles could partially or completely offset the potential energy-saving benefits that automation may provide, according to a new University of Michigan study.
+      </div>
+    </a>
     
 
     <div class="stream-meta article-metadata">
@@ -3559,11 +3792,8 @@ My research broadly focuses on leveraging these mobility modes to <strong>improv
       <div>
         
 
-
-
   
-  <span><a href="/authors/michigan-news/">Michigan News</a></span>
-
+  <span >Michigan News</span>
       </div>
       
     </div>
@@ -3816,7 +4046,7 @@ My research broadly focuses on leveraging these mobility modes to <strong>improv
     
     
     <a href="https://news.umich.edu/u-m-study-induced-driving-miles-could-overwhelm-potential-energy-saving-benefits-of-self-driving-cars/" target="_blank" rel="noopener">
-      <img src="/project/201904-michigannews/featured_huaa98726a90385cb5731a1432c79a997d_351976_150x0_resize_q90_lanczos.jpg" alt="">
+      <img src="/project/201904-michigannews/featured_huaa98726a90385cb5731a1432c79a997d_351976_150x0_resize_q90_lanczos.jpg" alt="Self-driving cars could lead to more driving miles, fewer environmental benefits">
     </a>
     
   </div>
@@ -3870,9 +4100,11 @@ My research broadly focuses on leveraging these mobility modes to <strong>improv
     </h3>
 
     
-    <div class="article-style">
-      The future of self-driving cars remains highly uncertain. But visions of fully autonomous vehicles have captured the public …
-    </div>
+    <a href="/project/201810-iea/" class="summary-link">
+      <div class="article-style">
+        The future of self-driving cars remains highly uncertain. But visions of fully autonomous vehicles have captured the public imagination, with academics, technologists, and cultural commentators speculating on what a self-driving future might mean.
+      </div>
+    </a>
     
 
     <div class="stream-meta article-metadata">
@@ -3883,11 +4115,8 @@ My research broadly focuses on leveraging these mobility modes to <strong>improv
       <div>
         
 
-
-
   
-  <span><a href="/authors/international-energy-agency/">International Energy Agency</a></span>
-
+  <span >International Energy Agency</span>
       </div>
       
     </div>
@@ -3948,7 +4177,7 @@ My research broadly focuses on leveraging these mobility modes to <strong>improv
     
     
     <a href="https://www.iea.org/commentaries/do-automated-cars-dream-of-electric-sharing" target="_blank" rel="noopener">
-      <img src="/project/201810-iea/featured_hu39b634d7616a7baecc5504bfd01c3543_144193_150x0_resize_q90_lanczos.jpg" alt="">
+      <img src="/project/201810-iea/featured_hu39b634d7616a7baecc5504bfd01c3543_144193_150x0_resize_q90_lanczos.jpg" alt="Do automated cars dream of electric sharing?">
     </a>
     
   </div>
@@ -4002,9 +4231,11 @@ My research broadly focuses on leveraging these mobility modes to <strong>improv
     </h3>
 
     
-    <div class="article-style">
-      Self-driving cars can have both positive and negative impacts on the carbon intensity of transportation, according to a new study.
-    </div>
+    <a href="/project/201809-eenews/" class="summary-link">
+      <div class="article-style">
+        Self-driving cars can have both positive and negative impacts on the carbon intensity of transportation, according to a new study.
+      </div>
+    </a>
     
 
     <div class="stream-meta article-metadata">
@@ -4015,11 +4246,8 @@ My research broadly focuses on leveraging these mobility modes to <strong>improv
       <div>
         
 
-
-
   
-  <span><a href="/authors/ee-news-climatewire/">E&amp;E News: CLIMATEWIRE</a></span>
-
+  <span >E&amp;E News: CLIMATEWIRE</span>
       </div>
       
     </div>
@@ -4064,7 +4292,7 @@ My research broadly focuses on leveraging these mobility modes to <strong>improv
     
     
     <a href="https://www.eenews.net/climatewire/stories/1060098281/" target="_blank" rel="noopener">
-      <img src="/project/201809-eenews/featured_hufe336a0c3433869e17519273ec9b71f8_61400_150x0_resize_q90_lanczos.jpg" alt="">
+      <img src="/project/201809-eenews/featured_hufe336a0c3433869e17519273ec9b71f8_61400_150x0_resize_q90_lanczos.jpg" alt="Self-driving cars and CO2 emissions: It&#39;s complicated">
     </a>
     
   </div>
@@ -4099,13 +4327,14 @@ My research broadly focuses on leveraging these mobility modes to <strong>improv
     
     
     
-      
-      
-    
     
       
       
     
+    
+      
+      
+    
   
 
   
@@ -4114,6 +4343,9 @@ My research broadly focuses on leveraging these mobility modes to <strong>improv
   
 
   
+  
+
+  
 
   
   
@@ -4131,7 +4363,9 @@ My research broadly focuses on leveraging these mobility modes to <strong>improv
   
   
 
-  <section id="contact" class="home-section wg-contact dark  bg-image parallax " style="background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(&#39;https://taiebat.github.io/img/mcity.jpg&#39;);background-size: center;background-position: center;padding: 100px 0 100px 0;" >
+  
+
+  <section id="contact" class="home-section wg-contact dark  bg-image parallax " style="background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(&#39;https://taiebat.github.io/media/mcity.jpg&#39;);background-size: center;background-position: center;padding: 100px 0 100px 0;" >
     <div class="container">
       
 
@@ -4139,11 +4373,16 @@ My research broadly focuses on leveraging these mobility modes to <strong>improv
 
 
 
-<div class="row contact-widget">
-  <div class="col-12 col-lg-4 section-heading">
-    <h1>Contact</h1>
+
+<div class="row contact-widget ">
+  
     
-  </div>
+      <div class="col-12 col-lg-4 section-heading">
+        <h1>Contact</h1>
+        
+      </div>
+    
+  
   <div class="col-12 col-lg-8">
     
 
@@ -4165,7 +4404,7 @@ My research broadly focuses on leveraging these mobility modes to <strong>improv
         
         <li>
           <i class="fa-li fas fa-map-marker fa-2x" aria-hidden="true"></i>
-          <span id="person-address">440 Church Street, 3021 Dana Building, Ann Arbor, MI 48109, United States</span>
+          <span id="person-address">440 Church Street, 3021 Dana Building, Ann Arbor, MI 48109</span>
         </li>
       
 
@@ -4220,31 +4459,28 @@ My research broadly focuses on leveraging these mobility modes to <strong>improv
 
 
 
+
       
 
     
     
-
     
-    
-    
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha256-yt2kYMy0w8AbtF89WXb2P1rfjcP/HTHLT7097U8Y5b8=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/instant.page/5.1.0/instantpage.min.js" integrity="sha512-1+qUtKoh9XZW7j+6LhRMAyOrgSQKenQ4mluTR+cvxXjP1Z54RxZuzstR/H9kgPXQsVB8IW7DMDFUJpzLjvhGSQ==" crossorigin="anonymous"></script>
 
       
 
       
         
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/highlight.min.js" integrity="sha256-1zu+3BnLYV9LdiY85uXMzii3bdrkelyp37e0ZyTAQh0=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.2/highlight.min.js" integrity="sha512-7t8APmYpzEsZP7CYoA7RfMPV9Bb+PJHa9x2WiUnDXZx3XHveuyWUtvNOexhkierl5flZ3tr92dP1mMS+SGlD+A==" crossorigin="anonymous"></script>
         
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/languages/r.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.2/languages/r.min.js"></script>
         
       
 
-      
-      
     
 
     
@@ -4268,7 +4504,8 @@ My research broadly focuses on leveraging these mobility modes to <strong>improv
         'post': "Posts",
         'project': "Projects",
         'publication' : "Publications",
-        'talk' : "Talks"
+        'talk' : "Talks",
+        'slides' : "Slides"
         };
     </script>
     
@@ -4302,6 +4539,21 @@ My research broadly focuses on leveraging these mobility modes to <strong>improv
 
     
     
+    <script>
+      if (window.netlifyIdentity) {
+        window.netlifyIdentity.on("init", user => {
+          if (!user) {
+            window.netlifyIdentity.on("login", () => {
+              document.location.href = "/admin/";
+            });
+          }
+        });
+      }
+    </script>
+    
+
+    
+    
 
     
     
@@ -4317,7 +4569,7 @@ My research broadly focuses on leveraging these mobility modes to <strong>improv
     
     
     
-    <script src="/js/academic.min.3227ab49eed49815d1b4ba40154f74e7.js"></script>
+    <script src="/js/academic.min.3b2b658c61ebd725bd5fc606c89fe44c.js"></script>
 
     
 
@@ -4332,7 +4584,34 @@ My research broadly focuses on leveraging these mobility modes to <strong>improv
     <footer class="site-footer">
   
 
-<small><small>&copy; 2020 Morteza Taiebat | All Rights Reserved<small>
+  <p class="powered-by">
+    
+  </p>
+
+  
+  
+
+
+
+
+
+
+  <p class="powered-by">
+    
+    Published with
+    <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic Website Builder</a>
+    
+
+    
+    <span class="float-right" aria-hidden="true">
+      <a href="#" class="back-to-top">
+        <span class="button_icon">
+          <i class="fas fa-chevron-up fa-2x"></i>
+        </span>
+      </a>
+    </span>
+    
+  </p>
 </footer>
 
   </div>
