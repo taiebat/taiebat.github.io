@@ -5,12 +5,20 @@
     <link>https://taiebat.github.io/publication/</link>
       <atom:link href="https://taiebat.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>Publications</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©2021 Morteza Taiebat</copyright><lastBuildDate>Wed, 24 Mar 2021 16:31:21 -0500</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©2021 Morteza Taiebat</copyright><lastBuildDate>Thu, 12 Aug 2021 16:31:21 -0500</lastBuildDate>
     <image>
       <url>https://taiebat.github.io/images/logo_hu86e8981517cbd10a77fcc2d146d29be0_114569_300x300_fit_lanczos_2.png</url>
       <title>Publications</title>
       <link>https://taiebat.github.io/publication/</link>
     </image>
+    
+    <item>
+      <title>Shared Autonomous Electric Vehicle Fleets with Vehicle-to-Grid Capability: Economic Viability and Environmental Co-benefits</title>
+      <link>https://taiebat.github.io/publication/202108-shared-autonomous-electric-vehicle-fleets-with-vehicle-to-grid-capability/</link>
+      <pubDate>Thu, 12 Aug 2021 16:31:21 -0500</pubDate>
+      <guid>https://taiebat.github.io/publication/202108-shared-autonomous-electric-vehicle-fleets-with-vehicle-to-grid-capability/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Urban Air Pollution Mapping Using Fleet Vehicles as Mobile Monitors and Machine Learning</title>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Zitong Liao | Morteza Taiebat</title>
+    <link>https://taiebat.github.io/authors/zitong-liao/</link>
+      <atom:link href="https://taiebat.github.io/authors/zitong-liao/index.xml" rel="self" type="application/rss+xml" />
+    <description>Zitong Liao</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©2021 Morteza Taiebat</copyright><lastBuildDate>Thu, 12 Aug 2021 16:31:21 -0500</lastBuildDate>
+    <image>
+      <url>https://taiebat.github.io/images/logo_hu86e8981517cbd10a77fcc2d146d29be0_114569_300x300_fit_lanczos_2.png</url>
+      <title>Zitong Liao</title>
+      <link>https://taiebat.github.io/authors/zitong-liao/</link>
+    </image>
+    
+    <item>
+      <title>Shared Autonomous Electric Vehicle Fleets with Vehicle-to-Grid Capability: Economic Viability and Environmental Co-benefits</title>
+      <link>https://taiebat.github.io/publication/202108-shared-autonomous-electric-vehicle-fleets-with-vehicle-to-grid-capability/</link>
+      <pubDate>Thu, 12 Aug 2021 16:31:21 -0500</pubDate>
+      <guid>https://taiebat.github.io/publication/202108-shared-autonomous-electric-vehicle-fleets-with-vehicle-to-grid-capability/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
